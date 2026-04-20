@@ -1,0 +1,32 @@
+
+----------------------application startup--------------------------
+2026-03-21 08:47:29 --INFO -- 停止项目成功！
+2026-03-21 08:47:30 --INFO -- 启动项目成功！
+2026-03-21 09:26:10 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-21 09:26:40 --INFO -- 停止项目成功！
+2026-03-21 09:26:43 --INFO -- 初始化成功!
+2026-03-21 09:26:54 --INFO -- 启动项目成功！
+2026-03-21 09:33:32 --INFO -- 保存项目成功！
+2026-03-21 09:33:56 --INFO -- 保存项目成功！
+2026-03-21 09:34:25 --ERROR-- [任务Mark点拍照]运行异常!:Line[0],Message[An item with the same key has already been added. Key: Mark点拍照.拍照R],Location[   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Plugin.ControlDevice.ToolControlDevice.GetResultData()
+   at Core.TaskFlow.RunOnce() in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 1060]
+2026-03-21 09:35:44 --INFO -- 保存项目成功！
+2026-03-21 09:35:52 --INFO -- 保存项目成功！
+2026-03-21 09:39:46 --INFO -- 保存项目成功！
+2026-03-21 09:39:49 --WARN -- 相机标定校验工具异常,提示：相机标定工具[手眼标定]属性[输入图像]The link value is empty！！相机标定工具[横手眼标定]属性[输入图像]The link value is empty！！
+2026-03-21 09:39:50 --WARN -- 相机标定校验工具异常,提示：相机标定工具[手眼标定]属性[输入图像]The link value is empty！！相机标定工具[横手眼标定]属性[输入图像]The link value is empty！！
+2026-03-21 09:40:16 --INFO -- 保存项目成功！
+2026-03-21 09:54:11 --INFO -- 保存项目成功！
+2026-03-21 10:28:02 --INFO -- 保存项目成功！
+2026-03-21 10:28:34 --INFO -- 保存项目成功！
+2026-03-21 14:45:36 --INFO -- 保存项目成功！
+2026-03-21 15:01:54 --INFO -- 保存项目成功！
+2026-03-21 15:02:02 --INFO -- 保存项目成功！
+2026-03-21 15:02:35 --INFO -- 保存项目成功！
+2026-03-21 15:05:17 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutRoot>
+  <RootPanel Orientation="Horizontal">
+    <LayoutPanel Orientation="Vertical" DockWidth="1.7162653562653567*">
+      <LayoutPanel Orientation="Horizontal" DockHeight="1.4726693790907484*">
+        <LayoutAnchorablePane DockWidth="0.1799999999999999*" FloatingWidth="1024" FloatingHeight="1248">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="项目工具栏" IsSelected="True" ContentId="项目工具栏" FloatingWidth="1024" FloatingHeight="1248" CanClose="False" LastActivationTimeStamp="01/12/2026 14:48:28" />
+        </LayoutAnchorablePane>
+        <LayoutPanel Orientation="Horizontal" DockWidth="1.789493889789744*">
+          <LayoutAnchorablePane DockWidth="234.79999999999995">
+            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="任务流程栏" IsSelected="True" ContentId="任务流程配置栏" CanClose="False" LastActivationTimeStamp="12/19/2024 16:07:21" />
+          </LayoutAnchorablePane>
+          <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="0.8329631639235546*">
+            <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="0.5*">
+              <LayoutAnchorablePane DockWidth="0.9951331857991302*" DockHeight="0.5*" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" FloatingLeft="684.8000000000001" FloatingTop="288.8">
+                <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[定位1]" IsSelected="True" ContentId="图像窗口0" FloatingLeft="684.8000000000001" FloatingTop="288.8" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" CanClose="False" LastActivationTimeStamp="01/12/2026 14:48:20" />
+              </LayoutAnchorablePane>
+              <LayoutAnchorablePane Id="5af99c6d-80eb-482d-954e-5e75e9c949ed" DockWidth="0.9953164406511414*" DockHeight="0.5*" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" FloatingLeft="966.4000000000001" FloatingTop="467.20000000000005">
+                <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[尺寸测量1]" IsSelected="True" ContentId="图像窗口2" FloatingLeft="966.4000000000001" FloatingTop="467.20000000000005" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" CanClose="False" LastActivationTimeStamp="01/12/2026 14:48:26" />
+              </LayoutAnchorablePane>
+            </LayoutAnchorablePaneGroup>
+            <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="0.5*">
+              <LayoutAnchorablePane DockWidth="0.9987774585861916*" DockHeight="0.5*" FloatingWidth="735.2" FloatingHeight="794.4000000000001" FloatingLeft="896.8000000000001" FloatingTop="684.8000000000001">
+                <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[定位2]" IsSelected="True" ContentId="图像窗口1" FloatingLeft="896.8000000000001" FloatingTop="684.8000000000001" FloatingWidth="735.2" FloatingHeight="794.4000000000001" CanClose="False" LastActivationTimeStamp="01/12/2026 14:47:01" />
+              </LayoutAnchorablePane>
+              <LayoutAnchorablePane DockWidth="1.0012225414138083*" DockHeight="0.5*" FloatingWidth="664" FloatingHeight="424" FloatingLeft="1084.8" FloatingTop="709.6">
+                <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[尺寸测量2]" IsSelected="True" ContentId="图像窗口3" FloatingLeft="1084.8" FloatingTop="709.6" FloatingWidth="664" FloatingHeight="424" CanClose="False" LastActivationTimeStamp="01/12/2026 14:47:41" />
+              </LayoutAnchorablePane>
+              <LayoutAnchorablePane Id="f2d528e4-8e84-4ba7-a332-7bb7c9366c80" DockHeight="0.5*" />
+              <LayoutAnchorablePaneGroup Orientation="Horizontal" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" FloatingLeft="1016" FloatingTop="714.4000000000001">
+                <LayoutAnchorablePane Id="adcf37a7-91d1-44bd-824d-4d0943fdccac" DockHeight="0.5*" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" FloatingLeft="1016" FloatingTop="714.4000000000001" />
+              </LayoutAnchorablePaneGroup>
+            </LayoutAnchorablePaneGroup>
+          </LayoutAnchorablePaneGroup>
+        </LayoutPanel>
+        <LayoutDocumentPane Id="838b6c62-31cf-4b60-9074-0ca82f4c0f32" DockWidth="0.030506110210255857*" />
+      </LayoutPanel>
+      <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="0.5273306209092516*" FloatingWidth="320" FloatingHeight="1145.6000000000001" FloatingLeft="1025.6000000000001" FloatingTop="1198.4">
+        <LayoutAnchorablePane DockWidth="0.15254237288135586*" FloatingWidth="320" FloatingHeight="1145.6000000000001" FloatingLeft="1025.6000000000001" FloatingTop="1198.4">
+          <LayoutAnchorable CanAutoHide="False" AutoHideWidth="100" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="日志栏" IsSelected="True" ContentId="日志栏" FloatingLeft="1025.6000000000001" FloatingTop="1198.4" FloatingWidth="320" FloatingHeight="1145.6000000000001" CanClose="False" LastActivationTimeStamp="12/19/2024 16:08:00" />
+        </LayoutAnchorablePane>
+      </LayoutAnchorablePaneGroup>
+    </LayoutPanel>
+    <LayoutAnchorablePane DockWidth="0.28373464373464335*" FloatingWidth="1024" FloatingHeight="1248" FloatingLeft="1024">
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="统计栏" IsSelected="True" ContentId="统计栏" FloatingLeft="1024" FloatingWidth="1024" FloatingHeight="1248" CanClose="True" LastActivationTimeStamp="12/19/2024 16:10:35" />
+    </LayoutAnchorablePane>
+  </RootPanel>
+  <TopSide />
+  <RightSide />
+  <LeftSide />
+  <BottomSide />
+  <FloatingWindows />
+  <Hidden>
+    <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="UI显示" IsSelected="True" ContentId="UI显示" CanClose="False" LastActivationTimeStamp="01/12/2026 14:45:27" PreviousContainerId="f2d528e4-8e84-4ba7-a332-7bb7c9366c80" PreviousContainerIndex="1" />
+    <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[横Mark点拍照]" ContentId="图像窗口4" FloatingLeft="1016" FloatingTop="714.4000000000001" FloatingWidth="1408.8000000000002" FloatingHeight="1145.6000000000001" CanClose="False" LastActivationTimeStamp="12/19/2024 16:10:11" PreviousContainerId="adcf37a7-91d1-44bd-824d-4d0943fdccac" PreviousContainerIndex="0" InitialContainerId="f2d528e4-8e84-4ba7-a332-7bb7c9366c80" InitialContainerIndex="1" />
+  </Hidden>
+</LayoutRoot>

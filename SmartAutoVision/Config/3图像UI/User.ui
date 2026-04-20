@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutRoot>
+  <RootPanel Orientation="Vertical">
+    <LayoutPanel Orientation="Horizontal" DockHeight="1.2135339666791394*">
+      <LayoutAnchorablePane Id="13d86f51-77d9-40cf-b35b-ba6a69a0777a" DockWidth="0.2517287998632488*" />
+      <LayoutAnchorablePane Id="5ed50ba6-e7b8-49a4-97bd-d39a3edd03b1" DockWidth="0.29088032820002796*" FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="-84.8" FloatingTop="475.2" />
+      <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="2.4573908719367212*">
+        <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="1.8011926019279*">
+          <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="1.33185185185185*" DockHeight="0.5*">
+            <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="1.174257408406943*" FloatingWidth="1503.2" FloatingHeight="893.6" FloatingLeft="1088" FloatingTop="296">
+              <LayoutAnchorablePane DockWidth="1.33185185185185*" DockHeight="0.5*" FloatingWidth="1503.2" FloatingHeight="893.6" FloatingLeft="1088" FloatingTop="296">
+                <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[拍照1]" IsSelected="True" ContentId="图像窗口0" FloatingLeft="1088" FloatingTop="296" FloatingWidth="1503.2" FloatingHeight="893.6" CanClose="False" LastActivationTimeStamp="04/06/2023 10:52:49" PreviousContainerId="8dfd94b3-0aa8-4947-bb18-77673962dd2d" PreviousContainerIndex="1" />
+              </LayoutAnchorablePane>
+            </LayoutAnchorablePaneGroup>
+            <LayoutAnchorablePane Id="8dfd94b3-0aa8-4947-bb18-77673962dd2d" Name="paneImage" DockWidth="1.1575944434449066*" DockHeight="0.5*">
+              <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[拍照2]" IsSelected="True" ContentId="图像窗口1" FloatingLeft="1111.2" FloatingTop="518.4" FloatingWidth="1017.6" FloatingHeight="1141.6" CanClose="False" LastActivationTimeStamp="04/07/2023 08:44:49" />
+            </LayoutAnchorablePane>
+          </LayoutAnchorablePaneGroup>
+          <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="0.5*" FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="716" FloatingTop="516.8">
+            <LayoutAnchorablePane Id="f58aa978-0737-47c3-8fa4-7b609ff77359" DockWidth="1.33185185185185*" FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="760" FloatingTop="672.8" />
+          </LayoutAnchorablePaneGroup>
+        </LayoutAnchorablePaneGroup>
+        <LayoutAnchorablePane DockWidth="0.198807398072098*" FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="209.6" FloatingTop="592">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="统计栏" IsSelected="True" ContentId="统计栏" FloatingLeft="209.6" FloatingTop="592" FloatingWidth="1017.6" FloatingHeight="1141.6" CanClose="False" LastActivationTimeStamp="06/15/2022 16:49:42" PreviousContainerId="13d86f51-77d9-40cf-b35b-ba6a69a0777a" PreviousContainerIndex="0" />
+        </LayoutAnchorablePane>
+      </LayoutAnchorablePaneGroup>
+    </LayoutPanel>
+    <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="0.786466033320863*" FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="391.2" FloatingTop="1207.2">
+      <LayoutAnchorablePane FloatingWidth="1017.6" FloatingHeight="1141.6" FloatingLeft="391.2" FloatingTop="1207.2">
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="日志栏" IsSelected="True" ContentId="日志栏" FloatingLeft="391.2" FloatingTop="1207.2" FloatingWidth="1017.6" FloatingHeight="1141.6" CanClose="False" LastActivationTimeStamp="04/06/2023 13:39:03" PreviousContainerId="8dfd94b3-0aa8-4947-bb18-77673962dd2d" PreviousContainerIndex="3" />
+      </LayoutAnchorablePane>
+    </LayoutAnchorablePaneGroup>
+  </RootPanel>
+  <TopSide />
+  <RightSide />
+  <LeftSide />
+  <BottomSide />
+  <FloatingWindows />
+  <Hidden>
+    <LayoutAnchorable CanAutoHide="False" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="图像[复检图像]" IsSelected="True" ContentId="图像窗口2" FloatingLeft="760" FloatingTop="672.8" FloatingWidth="1017.6" FloatingHeight="1141.6" CanClose="False" LastActivationTimeStamp="04/07/2023 08:44:49" PreviousContainerId="f58aa978-0737-47c3-8fa4-7b609ff77359" PreviousContainerIndex="0" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="项目工具栏" ContentId="项目工具栏" CanClose="False" LastActivationTimeStamp="04/07/2023 08:45:22" PreviousContainerId="13d86f51-77d9-40cf-b35b-ba6a69a0777a" PreviousContainerIndex="0" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="任务流程栏" ContentId="任务流程配置栏" FloatingLeft="-84.8" FloatingTop="475.2" FloatingWidth="1017.6" FloatingHeight="1141.6" CanClose="False" LastActivationTimeStamp="04/07/2023 08:45:37" PreviousContainerId="5ed50ba6-e7b8-49a4-97bd-d39a3edd03b1" PreviousContainerIndex="0" InitialContainerId="13d86f51-77d9-40cf-b35b-ba6a69a0777a" InitialContainerIndex="1" />
+  </Hidden>
+</LayoutRoot>

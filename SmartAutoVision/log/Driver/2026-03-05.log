@@ -1,0 +1,42 @@
+
+----------------------application startup--------------------------
+2026-03-05 15:30:36 --INFO -- 打开[机器人]成功:No device, please select.
+2026-03-05 15:37:02 --INFO -- [机器人]停止监控！
+2026-03-05 15:37:02 --INFO -- [机器人]停止监控！
+2026-03-05 16:22:09 --INFO -- 打开[机器人]成功:.
+2026-03-05 16:22:24 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-05 16:22:27 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-05 16:34:54 --ERROR-- 机器人异常，终止监控:Line[397],Message[Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.],Location[   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Modbus.IO.TcpClientAdapter.Read(Byte[] buffer, Int32 offset, Int32 size) in C:\项目\类库\ReferenceLib\NModbus4\IO\TcpClientAdapter.cs:line 48
+   at Modbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 36
+   at Modbus.IO.ModbusIpTransport.ReadResponse[T]() in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 140
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusTransport.cs:line 135
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data) in C:\项目\类库\ReferenceLib\NModbus4\Device\ModbusMaster.cs:line 256
+   at Driver.PLC.Modbus.PlcModbus.WriteEntity[T](String name, T[] ts)
+   at Device.PlcPortBase.Write[T](String name, T[] ts) in F:\项目\Libraries\Class\Device\007 Plc\PlcPortBase.cs:line 352
+   at Driver.PLC.Modbus.PlcModbus.MonitoringIo()]
+2026-03-05 16:34:55 --ERROR-- 机器人异常，终止监控:Line[397],Message[Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.],Location[   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Modbus.IO.TcpClientAdapter.Read(Byte[] buffer, Int32 offset, Int32 size) in C:\项目\类库\ReferenceLib\NModbus4\IO\TcpClientAdapter.cs:line 48
+   at Modbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 36
+   at Modbus.IO.ModbusIpTransport.ReadResponse[T]() in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 140
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusTransport.cs:line 135
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data) in C:\项目\类库\ReferenceLib\NModbus4\Device\ModbusMaster.cs:line 256
+   at Driver.PLC.Modbus.PlcModbus.WriteEntity[T](String name, T[] ts)
+   at Device.PlcPortBase.Write[T](String name, T[] ts) in F:\项目\Libraries\Class\Device\007 Plc\PlcPortBase.cs:line 352
+   at Driver.PLC.Modbus.PlcModbus.MonitoringIo()]
+2026-03-05 16:39:53 --ERROR-- 机器人打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpClient.cs:line 116
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\DevicePort.cs:line 258
+2026-03-05 16:39:53 --INFO -- [机器人]停止监控！
+2026-03-05 16:40:18 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-05 16:40:18 --INFO -- 打开[机器人]成功:.
+2026-03-05 17:12:45 --INFO -- [机器人]停止监控！
+2026-03-05 17:12:45 --INFO -- [机器人]停止监控！
+2026-03-05 17:13:54 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-05 17:13:54 --INFO -- 打开[机器人]成功:.
+2026-03-05 17:14:00 --INFO -- [机器人]停止监控！
+2026-03-05 17:14:00 --INFO -- [机器人]停止监控！
+2026-03-05 17:14:03 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-05 17:14:03 --INFO -- 打开[机器人]成功:.
+
+ ----------------------application shutdown--------------------------

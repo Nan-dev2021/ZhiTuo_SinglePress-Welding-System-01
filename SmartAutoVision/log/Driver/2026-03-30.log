@@ -1,0 +1,912 @@
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-30 09:01:53 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换2.结果坐标字典] not exist!parameter[电芯坐标转换1.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:03:38 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换2.结果坐标字典] not exist!parameter[电芯坐标转换1.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:04:27 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换2.结果坐标字典] not exist!parameter[电芯坐标转换1.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:08:31 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换1.结果坐标字典] not exist!parameter[电芯坐标转换2.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:13:31 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:13:31 --WARN -- 坐标解析编译失败！
+2026-03-30 09:13:32 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:13:32 --WARN -- 坐标解析编译失败！
+2026-03-30 09:13:32 --ERROR-- 坐标解析[C#脚本] running failed:;Exception message:Line[45],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-03-30 09:14:07 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:14:07 --INFO -- [Mark点间标定1]标定信息：[平移X:27.177874333476556;平移Y:1742.6257657373521;X当量:1.0045968295763137;Y当量:0.999811686810936;旋转角度:-0.04842797859440948;倾斜角度:0.0015730947999231804;RMS:2.326417180675108E-13]误差：2.2737367544323206E-13,列误差：8.526512829121202E-14.
+2026-03-30 09:14:10 --INFO -- [Mark点间标定2]首坐标表[],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:14:10 --ERROR-- Mark点间标定2[坐标系间标定] running failed:;Exception message:Line[45],Message[HALCON error #1401: Wrong number of values of control parameter 1 in operator vector_to_hom_mat2d],Location[   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HHomMat2D.VectorToHomMat2d(HTuple px, HTuple py, HTuple qx, HTuple qy)
+   at Plugin.CalibCoordsBetween.ToolCalibCoordsBetween.Run()]
+2026-03-30 09:14:35 --INFO -- [Mark点间标定2]首坐标表[],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:14:35 --ERROR-- Mark点间标定2[坐标系间标定] running failed:;Exception message:Line[45],Message[HALCON error #1401: Wrong number of values of control parameter 1 in operator vector_to_hom_mat2d],Location[   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HHomMat2D.VectorToHomMat2d(HTuple px, HTuple py, HTuple qx, HTuple qy)
+   at Plugin.CalibCoordsBetween.ToolCalibCoordsBetween.Run()]
+2026-03-30 09:15:07 --INFO -- [Mark点间标定2]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:15:07 --INFO -- [Mark点间标定2]标定信息：[平移X:27.177874333476556;平移Y:1742.6257657373521;X当量:1.0045968295763137;Y当量:0.999811686810936;旋转角度:-0.04842797859440948;倾斜角度:0.0015730947999231804;RMS:2.326417180675108E-13]误差：2.2737367544323206E-13,列误差：8.526512829121202E-14.
+2026-03-30 09:15:11 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:15:11 --WARN -- 坐标解析编译失败！
+2026-03-30 09:15:11 --ERROR-- 坐标解析[C#脚本] running failed:;Exception message:Line[45],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-03-30 09:15:15 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换1.结果坐标字典] not exist!parameter[电芯坐标转换2.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:16:40 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:16:40 --WARN -- 坐标解析编译失败！
+2026-03-30 09:17:46 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:17:46 --WARN -- 坐标解析编译失败！
+2026-03-30 09:17:48 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:17:48 --WARN -- 坐标解析编译失败！
+2026-03-30 09:17:48 --ERROR-- 坐标解析[C#脚本] running failed:;Exception message:Line[45],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-03-30 09:20:53 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:20:53 --WARN -- 坐标解析编译失败！
+2026-03-30 09:20:55 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:20:55 --WARN -- 坐标解析编译失败！
+2026-03-30 09:20:55 --ERROR-- 坐标解析[C#脚本] running failed:;Exception message:Line[45],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-03-30 09:22:42 --WARN -- Compile Error:path[],line[17],description[The left-hand side of an assignment must be a variable, property or indexer].
+2026-03-30 09:22:42 --WARN -- 坐标解析编译失败！
+2026-03-30 09:25:39 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换1.结果坐标字典] not exist!parameter[电芯坐标转换2.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:28:51 --ERROR-- 计算赋值[计算赋值] running failed:parameter[电芯坐标转换1.结果坐标字典] not exist!parameter[电芯坐标转换2.结果坐标字典] not exist!;Exception message:Line[45],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-03-30 09:33:17 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:33:17 --INFO -- [Mark点间标定1]标定信息：[平移X:27.177874333476556;平移Y:1742.6257657373521;X当量:1.0045968295763137;Y当量:0.999811686810936;旋转角度:-0.04842797859440948;倾斜角度:0.0015730947999231804;RMS:2.326417180675108E-13]误差：2.2737367544323206E-13,列误差：8.526512829121202E-14.
+2026-03-30 09:33:19 --INFO -- [Mark点间标定2]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:33:19 --INFO -- [Mark点间标定2]标定信息：[平移X:27.177874333476556;平移Y:1742.6257657373521;X当量:1.0045968295763137;Y当量:0.999811686810936;旋转角度:-0.04842797859440948;倾斜角度:0.0015730947999231804;RMS:2.326417180675108E-13]误差：2.2737367544323206E-13,列误差：8.526512829121202E-14.
+2026-03-30 09:33:23 --ERROR-- 写入坐标结果[设备控制] running failed:;Exception message:Line[45],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at System.Windows.Core.FunctionInfo.Invoke(Object obj) in F:\项目\Libraries\ViewClass\System.Windows.Core\Core\Extensions\Method\FunctionInfo.cs:line 138
+   at Plugin.ControlDevice.ToolControlDevice.<Run>b__37_0(FunctionInfo s)
+   at System.CollectionHelper.ForEach[T](IEnumerable`1 source, Action`1 action) in F:\项目\Libraries\Class\UtilBase\类型\CollectionHelper.cs:line 836
+   at Plugin.ControlDevice.ToolControlDevice.Run()]
+2026-03-30 09:33:39 --INFO -- 打开[机器人]成功:.
+2026-03-30 09:33:53 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-30 09:33:53 --INFO -- 打开[测距仪]成功:.
+2026-03-30 09:45:12 --INFO -- 打开[测距仪]成功:.
+2026-03-30 09:57:34 --INFO -- [Mark点间标定2]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:744.9369072585077,1424.4450986967292;2:756.8494547251166,2361.7103509183657;3:-68.74003176564594,2375.8702984972883].
+2026-03-30 09:57:34 --INFO -- [Mark点间标定2]标定信息：[平移X:27.177874333476556;平移Y:1742.6257657373521;X当量:1.0045968295763137;Y当量:0.999811686810936;旋转角度:-0.04842797859440948;倾斜角度:0.0015730947999231804;RMS:2.326417180675108E-13]误差：2.2737367544323206E-13,列误差：8.526512829121202E-14.
+2026-03-30 10:01:23 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 10:01:24 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:01:37 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:01:38 --INFO -- 查找模板计时:162.6053
+2026-03-30 10:01:38 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:01:41 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:01:41 --INFO -- 查找模板计时:245.8225
+2026-03-30 10:01:42 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:01:44 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:01:44 --INFO -- Read D530 is 1
+2026-03-30 10:01:44 --INFO -- Reading D5000 is 407.27563
+2026-03-30 10:01:44 --INFO -- Reading D5002 is -324.9948
+2026-03-30 10:01:44 --INFO -- Reading D5004 is 37.176193
+2026-03-30 10:01:44 --INFO -- Reading D5010 is 0
+2026-03-30 10:01:44 --INFO -- Reading D5006 is 179.95969
+2026-03-30 10:01:44 --INFO -- Reading D5008 is 0
+2026-03-30 10:01:44 --INFO -- Read D532 is 1
+2026-03-30 10:01:44 --INFO -- 查找模板计时:41.2795
+2026-03-30 10:01:44 --INFO -- 转机械坐标:像素坐标[1647.462,1375.05],拍照机械坐标[407.275634765625,-324.99481201171875],转换定位机械坐标[710.6692532499533,-305.3528957513781]
+2026-03-30 10:01:45 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:01:51 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:01:51 --INFO -- Read D530 is 2
+2026-03-30 10:01:51 --INFO -- Reading D5000 is 433.01822
+2026-03-30 10:01:51 --INFO -- Reading D5002 is 615.50183
+2026-03-30 10:01:51 --INFO -- Reading D5004 is 41.840572
+2026-03-30 10:01:51 --INFO -- Reading D5010 is 0
+2026-03-30 10:01:51 --INFO -- Reading D5006 is 179.94302
+2026-03-30 10:01:51 --INFO -- Reading D5008 is 0.006689297
+2026-03-30 10:01:51 --INFO -- Read D532 is 1
+2026-03-30 10:01:51 --INFO -- 查找模板计时:33.9392
+2026-03-30 10:01:51 --INFO -- 转机械坐标:像素坐标[1715.128,1596.587],拍照机械坐标[433.0182189941406,615.5018310546875],转换定位机械坐标[716.1754188617435,628.4767500612631]
+2026-03-30 10:01:52 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:01:58 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:01:58 --INFO -- Read D530 is 3
+2026-03-30 10:01:58 --INFO -- Reading D5000 is -391.56104
+2026-03-30 10:01:58 --INFO -- Reading D5002 is 635.4261
+2026-03-30 10:01:58 --INFO -- Reading D5004 is 48.97042
+2026-03-30 10:01:58 --INFO -- Reading D5010 is 0
+2026-03-30 10:01:58 --INFO -- Reading D5006 is 179.95595
+2026-03-30 10:01:58 --INFO -- Reading D5008 is 0
+2026-03-30 10:01:58 --INFO -- Read D532 is 1
+2026-03-30 10:01:58 --INFO -- 查找模板计时:46.9789
+2026-03-30 10:01:58 --INFO -- 转机械坐标:像素坐标[1828.147,1585.719],拍照机械坐标[-391.56103515625,635.4260864257812],转换定位机械坐标[-107.15943184633721,638.0364433326056]
+2026-03-30 10:01:59 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:02:02 --INFO -- 写三轴坐标事件触发:触发类型[变化],消息[D500变为5].
+2026-03-30 10:02:02 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:710.6692532499533,-305.3528957513781;2:716.1754188617435,628.4767500612631;3:-107.15943184633721,638.0364433326056].
+2026-03-30 10:02:02 --INFO -- [Mark点间标定1]标定信息：[平移X:-7.209231601345292;平移Y:7.685757695572875;X当量:1.0017525695919953;Y当量:0.9960989545832986;旋转角度:0.2680988309311353;倾斜角度:0.07601310524440319;RMS:1.0915564626925243E-13]误差：1.1368683772161603E-13,列误差：1.1368683772161603E-13.
+2026-03-30 10:02:02 --INFO -- [Mark点间标定2]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:710.6692532499533,-305.3528957513781;2:716.1754188617435,628.4767500612631;3:-107.15943184633721,638.0364433326056].
+2026-03-30 10:02:02 --INFO -- [Mark点间标定2]标定信息：[平移X:-7.209231601345292;平移Y:7.685757695572875;X当量:1.0017525695919953;Y当量:0.9960989545832986;旋转角度:0.2680988309311353;倾斜角度:0.07601310524440319;RMS:1.0915564626925243E-13]误差：1.1368683772161603E-13,列误差：1.1368683772161603E-13.
+2026-03-30 10:02:03 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:16 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 10:49:17 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:24 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:49:24 --INFO -- 查找模板计时:194.6679
+2026-03-30 10:49:25 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:26 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:49:27 --INFO -- 查找模板计时:183.5625
+2026-03-30 10:49:27 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:29 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:49:29 --INFO -- Read D530 is 1
+2026-03-30 10:49:29 --INFO -- Reading D5000 is 478.2679
+2026-03-30 10:49:29 --INFO -- Reading D5002 is 1438.4629
+2026-03-30 10:49:29 --INFO -- Reading D5004 is 69.20514
+2026-03-30 10:49:29 --INFO -- Reading D5010 is 0
+2026-03-30 10:49:29 --INFO -- Reading D5006 is 179.26044
+2026-03-30 10:49:29 --INFO -- Reading D5008 is 0.00912136
+2026-03-30 10:49:29 --INFO -- Read D532 is 2
+2026-03-30 10:49:29 --INFO -- 查找模板计时:32.1748
+2026-03-30 10:49:29 --INFO -- 转机械坐标:像素坐标[1920.438,1997.551],拍照机械坐标[478.2679138183594,1438.462890625],转换定位机械坐标[724.9780345742968,1431.7580028858156]
+2026-03-30 10:49:30 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:34 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:49:34 --INFO -- Read D530 is 2
+2026-03-30 10:49:34 --INFO -- Reading D5000 is 486.88937
+2026-03-30 10:49:34 --INFO -- Reading D5002 is 2376.2751
+2026-03-30 10:49:34 --INFO -- Reading D5004 is 78.14272
+2026-03-30 10:49:34 --INFO -- Reading D5010 is 0
+2026-03-30 10:49:34 --INFO -- Reading D5006 is 179.25594
+2026-03-30 10:49:34 --INFO -- Reading D5008 is 0
+2026-03-30 10:49:34 --INFO -- Read D532 is 2
+2026-03-30 10:49:35 --INFO -- 查找模板计时:29.5944
+2026-03-30 10:49:35 --INFO -- 转机械坐标:像素坐标[1944.886,1912.512],拍照机械坐标[486.8893737792969,2376.275146484375],转换定位机械坐标[741.4765004126828,2367.495594188749]
+2026-03-30 10:49:39 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:46 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:49:46 --INFO -- Read D530 is 3
+2026-03-30 10:49:46 --INFO -- Reading D5000 is -340.8593
+2026-03-30 10:49:46 --INFO -- Reading D5002 is 2386.5845
+2026-03-30 10:49:46 --INFO -- Reading D5004 is 80.41963
+2026-03-30 10:49:46 --INFO -- Reading D5010 is 0
+2026-03-30 10:49:46 --INFO -- Reading D5006 is 179.26094
+2026-03-30 10:49:46 --INFO -- Reading D5008 is 0
+2026-03-30 10:49:46 --INFO -- Read D532 is 2
+2026-03-30 10:49:47 --INFO -- 查找模板计时:32.2898
+2026-03-30 10:49:47 --INFO -- 转机械坐标:像素坐标[1940.509,1925.523],拍照机械坐标[-340.85931396484375,2386.58447265625],转换定位机械坐标[-87.47874902974814,2378.1808349217313]
+2026-03-30 10:49:47 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:49:57 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:49:57 --INFO -- Read D531 is 1
+2026-03-30 10:49:57 --INFO -- Reading D5000 is 484.5347
+2026-03-30 10:49:57 --INFO -- Reading D5002 is 2331.1895
+2026-03-30 10:49:57 --INFO -- Reading D5004 is 77.53898
+2026-03-30 10:49:57 --INFO -- Reading D5010 is -0.0069129886
+2026-03-30 10:49:57 --INFO -- 查找模板计时:31.4224
+2026-03-30 10:49:57 --INFO -- 转机械坐标:像素坐标[1465.281,1826.555],拍照机械坐标[484.5346984863281,2331.189453125],转换定位机械坐标[745.9929401751956,2366.660075458934]
+2026-03-30 10:49:58 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:02 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:02 --INFO -- Read D531 is 2
+2026-03-30 10:50:02 --INFO -- Reading D5000 is 484.5032
+2026-03-30 10:50:02 --INFO -- Reading D5002 is 2121.3518
+2026-03-30 10:50:02 --INFO -- Reading D5004 is 72.69578
+2026-03-30 10:50:02 --INFO -- Reading D5010 is -0.010071123
+2026-03-30 10:50:02 --INFO -- 查找模板计时:34.1247
+2026-03-30 10:50:02 --INFO -- 转机械坐标:像素坐标[1447.079,1855.071],拍照机械坐标[484.5032043457031,2121.351806640625],转换定位机械坐标[743.2984213808008,2158.4374906408248]
+2026-03-30 10:50:03 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:07 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:07 --INFO -- Read D531 is 3
+2026-03-30 10:50:07 --INFO -- Reading D5000 is 484.5711
+2026-03-30 10:50:07 --INFO -- Reading D5002 is 1914.6914
+2026-03-30 10:50:07 --INFO -- Reading D5004 is 64.746895
+2026-03-30 10:50:07 --INFO -- Reading D5010 is -0.012946121
+2026-03-30 10:50:07 --INFO -- 查找模板计时:28.925
+2026-03-30 10:50:07 --INFO -- 转机械坐标:像素坐标[1458.173,1875.252],拍照机械坐标[484.57110595703125,1914.69140625],转换定位机械坐标[741.5335427914313,1950.7166911174543]
+2026-03-30 10:50:08 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:12 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:12 --INFO -- Read D531 is 4
+2026-03-30 10:50:12 --INFO -- Reading D5000 is 484.5874
+2026-03-30 10:50:12 --INFO -- Reading D5002 is 1698.1177
+2026-03-30 10:50:12 --INFO -- Reading D5004 is 69.82617
+2026-03-30 10:50:12 --INFO -- Reading D5010 is -0.018064158
+2026-03-30 10:50:12 --INFO -- 查找模板计时:40.9709
+2026-03-30 10:50:12 --INFO -- 转机械坐标:像素坐标[1350.209,1915.038],拍照机械坐标[484.58740234375,1698.11767578125],转换定位机械坐标[737.6557334199,1743.9844288616855]
+2026-03-30 10:50:13 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:17 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:17 --INFO -- Read D531 is 5
+2026-03-30 10:50:17 --INFO -- Reading D5000 is 484.54916
+2026-03-30 10:50:17 --INFO -- Reading D5002 is 1496.1086
+2026-03-30 10:50:17 --INFO -- Reading D5004 is 68.23927
+2026-03-30 10:50:17 --INFO -- Reading D5010 is -0.020059532
+2026-03-30 10:50:17 --INFO -- 查找模板计时:39.2315
+2026-03-30 10:50:17 --INFO -- 转机械坐标:像素坐标[1418.595,1963.356],拍照机械坐标[484.5491638183594,1496.108642578125],转换定位机械坐标[733.3198668066759,1535.5928503110513]
+2026-03-30 10:50:18 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:27 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:27 --INFO -- Read D531 is 6
+2026-03-30 10:50:27 --INFO -- Reading D5000 is 277.92007
+2026-03-30 10:50:27 --INFO -- Reading D5002 is 2335.0808
+2026-03-30 10:50:27 --INFO -- Reading D5004 is 78.44761
+2026-03-30 10:50:27 --INFO -- Reading D5010 is -0.024857802
+2026-03-30 10:50:27 --INFO -- 查找模板计时:30.28
+2026-03-30 10:50:27 --INFO -- 转机械坐标:像素坐标[1491.903,1826.261],拍照机械坐标[277.9200744628906,2335.080810546875],转换定位机械坐标[539.4629539180222,2368.105439226914]
+2026-03-30 10:50:28 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:32 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:32 --INFO -- Read D531 is 7
+2026-03-30 10:50:32 --INFO -- Reading D5000 is 277.9096
+2026-03-30 10:50:32 --INFO -- Reading D5002 is 2123.7075
+2026-03-30 10:50:32 --INFO -- Reading D5004 is 73.83539
+2026-03-30 10:50:32 --INFO -- Reading D5010 is -0.029115096
+2026-03-30 10:50:32 --INFO -- 查找模板计时:29.3565
+2026-03-30 10:50:32 --INFO -- 转机械坐标:像素坐标[1441.811,1854.671],拍照机械坐标[277.90960693359375,2123.70751953125],转换定位机械坐标[536.7302308921834,2161.2781477235485]
+2026-03-30 10:50:33 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:50:37 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:50:37 --INFO -- Read D531 is 8
+2026-03-30 10:50:37 --INFO -- Reading D5000 is 277.85132
+2026-03-30 10:50:37 --INFO -- Reading D5002 is 1915.9651
+2026-03-30 10:50:37 --INFO -- Reading D5004 is 70.27701
+2026-03-30 10:50:37 --INFO -- Reading D5010 is -0.032028854
+2026-03-30 10:50:37 --INFO -- 查找模板计时:28.1325
+2026-03-30 10:50:37 --INFO -- 转机械坐标:像素坐标[1443.195,1868.76],拍照机械坐标[277.851318359375,1915.965087890625],转换定位机械坐标[535.3786598922302,1953.3800068814655]
+2026-03-30 10:50:38 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:53:52 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:53:52 --INFO -- Read D531 is 9
+2026-03-30 10:53:52 --INFO -- Reading D5000 is 277.84268
+2026-03-30 10:53:52 --INFO -- Reading D5002 is 1704.2728
+2026-03-30 10:53:52 --INFO -- Reading D5004 is 69.14661
+2026-03-30 10:53:52 --INFO -- Reading D5010 is -0.035937656
+2026-03-30 10:53:52 --INFO -- 查找模板计时:31.263
+2026-03-30 10:53:52 --INFO -- 转机械坐标:像素坐标[1398.339,1920.35],拍照机械坐标[277.8426818847656,1704.2728271484375],转换定位机械坐标[530.5263890819056,1745.7056322342214]
+2026-03-30 10:53:53 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:53:57 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:53:57 --INFO -- Read D531 is 10
+2026-03-30 10:53:57 --INFO -- Reading D5000 is 277.86072
+2026-03-30 10:53:57 --INFO -- Reading D5002 is 1501.8503
+2026-03-30 10:53:57 --INFO -- Reading D5004 is 65.15686
+2026-03-30 10:53:57 --INFO -- Reading D5010 is -0.03914638
+2026-03-30 10:53:57 --INFO -- 查找模板计时:38.9073
+2026-03-30 10:53:57 --INFO -- 转机械坐标:像素坐标[1451.918,1956.581],拍照机械坐标[277.8607177734375,1501.850341796875],转换定位机械坐标[527.3268465305072,1538.2858456851625]
+2026-03-30 10:53:58 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:07 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:07 --INFO -- Read D531 is 11
+2026-03-30 10:54:07 --INFO -- Reading D5000 is 67.96847
+2026-03-30 10:54:07 --INFO -- Reading D5002 is 2334.3088
+2026-03-30 10:54:07 --INFO -- Reading D5004 is 81.150375
+2026-03-30 10:54:07 --INFO -- Reading D5010 is -0.043907337
+2026-03-30 10:54:08 --INFO -- 查找模板计时:30.8635
+2026-03-30 10:54:08 --INFO -- 转机械坐标:像素坐标[1470.227,1766.226],拍照机械坐标[67.96846771240234,2334.308837890625],转换定位机械坐标[334.9880543441536,2369.4470325521816]
+2026-03-30 10:54:08 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:12 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:12 --INFO -- Read D531 is 12
+2026-03-30 10:54:12 --INFO -- Reading D5000 is 67.95513
+2026-03-30 10:54:12 --INFO -- Reading D5002 is 2126.5842
+2026-03-30 10:54:12 --INFO -- Reading D5004 is 75.02586
+2026-03-30 10:54:12 --INFO -- Reading D5010 is -0.047873046
+2026-03-30 10:54:13 --INFO -- 查找模板计时:39.2851
+2026-03-30 10:54:13 --INFO -- 转机械坐标:像素坐标[1454.584,1823.731],拍照机械坐标[67.95513153076172,2126.584228515625],转换定位机械坐标[329.6500594745282,2163.0436321693055]
+2026-03-30 10:54:13 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:17 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:17 --INFO -- Read D531 is 13
+2026-03-30 10:54:17 --INFO -- Reading D5000 is 67.977516
+2026-03-30 10:54:17 --INFO -- Reading D5002 is 1919.6558
+2026-03-30 10:54:17 --INFO -- Reading D5004 is 70.365875
+2026-03-30 10:54:17 --INFO -- Reading D5010 is -0.05195322
+2026-03-30 10:54:18 --INFO -- 查找模板计时:32.7282
+2026-03-30 10:54:18 --INFO -- 转机械坐标:像素坐标[1456.076,1849.265],拍照机械坐标[67.9775161743164,1919.65576171875],转换定位机械坐标[327.3263836231271,1955.9263645047638]
+2026-03-30 10:54:19 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:23 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:23 --INFO -- Read D531 is 14
+2026-03-30 10:54:23 --INFO -- Reading D5000 is 68.01622
+2026-03-30 10:54:23 --INFO -- Reading D5002 is 1707.3652
+2026-03-30 10:54:23 --INFO -- Reading D5004 is 70.293526
+2026-03-30 10:54:23 --INFO -- Reading D5010 is -0.056991693
+2026-03-30 10:54:23 --INFO -- 查找模板计时:40.1441
+2026-03-30 10:54:23 --INFO -- 转机械坐标:像素坐标[1402.043,1873.908],拍照机械坐标[68.01622009277344,1707.365234375],转换定位机械坐标[324.9808945867006,1748.5516435231914]
+2026-03-30 10:54:24 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:28 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:28 --INFO -- Read D531 is 15
+2026-03-30 10:54:28 --INFO -- Reading D5000 is 67.07523
+2026-03-30 10:54:28 --INFO -- Reading D5002 is 1501.8702
+2026-03-30 10:54:28 --INFO -- Reading D5004 is 75.94065
+2026-03-30 10:54:28 --INFO -- Reading D5010 is -0.062101636
+2026-03-30 10:54:28 --INFO -- 查找模板计时:39.426
+2026-03-30 10:54:28 --INFO -- 转机械坐标:像素坐标[1440.979,1872.344],拍照机械坐标[67.07523345947266,1501.8702392578125],转换定位机械坐标[324.2680309563096,1539.4815563510926]
+2026-03-30 10:54:29 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:38 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:38 --INFO -- Read D531 is 16
+2026-03-30 10:54:38 --INFO -- Reading D5000 is -135.78772
+2026-03-30 10:54:38 --INFO -- Reading D5002 is 2342.3816
+2026-03-30 10:54:38 --INFO -- Reading D5004 is 79.58275
+2026-03-30 10:54:38 --INFO -- Reading D5010 is -0.06591198
+2026-03-30 10:54:38 --INFO -- 查找模板计时:39.2932
+2026-03-30 10:54:38 --INFO -- 转机械坐标:像素坐标[1504.728,1834.857],拍照机械坐标[-135.7877197265625,2342.381591796875],转换定位机械坐标[124.99201654457607,2374.210190429026]
+2026-03-30 10:54:39 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:43 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:43 --INFO -- Read D531 is 17
+2026-03-30 10:54:43 --INFO -- Reading D5000 is -135.8018
+2026-03-30 10:54:43 --INFO -- Reading D5002 is 2128.3809
+2026-03-30 10:54:43 --INFO -- Reading D5004 is 74.681885
+2026-03-30 10:54:43 --INFO -- Reading D5010 is -0.07096722
+2026-03-30 10:54:43 --INFO -- 查找模板计时:38.7425
+2026-03-30 10:54:43 --INFO -- 转机械坐标:像素坐标[1447.548,1834.427],拍照机械坐标[-135.8018035888672,2128.380859375],转换定位机械坐标[124.8938052874812,2165.4652282810275]
+2026-03-30 10:54:44 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:48 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:48 --INFO -- Read D531 is 18
+2026-03-30 10:54:48 --INFO -- Reading D5000 is -135.78662
+2026-03-30 10:54:48 --INFO -- Reading D5002 is 1919.8878
+2026-03-30 10:54:48 --INFO -- Reading D5004 is 71.94332
+2026-03-30 10:54:48 --INFO -- Reading D5010 is -0.07599265
+2026-03-30 10:54:48 --INFO -- 查找模板计时:43.8479
+2026-03-30 10:54:48 --INFO -- 转机械坐标:像素坐标[1424.459,1877.361],拍照机械坐标[-135.78662109375,1919.8878173828125],转换定位机械坐标[120.90884540012411,1959.0071840584064]
+2026-03-30 10:54:49 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:53 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:53 --INFO -- Read D531 is 19
+2026-03-30 10:54:53 --INFO -- Reading D5000 is -135.89224
+2026-03-30 10:54:53 --INFO -- Reading D5002 is 1715.015
+2026-03-30 10:54:53 --INFO -- Reading D5004 is 69.998924
+2026-03-30 10:54:53 --INFO -- Reading D5010 is -0.07996905
+2026-03-30 10:54:53 --INFO -- 查找模板计时:31.0902
+2026-03-30 10:54:53 --INFO -- 转机械坐标:像素坐标[1454.136,1892.999],拍照机械坐标[-135.89224243164062,1715.0150146484375],转换定位机械坐标[119.42862651606623,1751.3753813748765]
+2026-03-30 10:54:54 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:54:58 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:54:58 --INFO -- Read D531 is 20
+2026-03-30 10:54:58 --INFO -- Reading D5000 is -136.0183
+2026-03-30 10:54:58 --INFO -- Reading D5002 is 1508.4427
+2026-03-30 10:54:58 --INFO -- Reading D5004 is 68.684074
+2026-03-30 10:54:58 --INFO -- Reading D5010 is -0.084067866
+2026-03-30 10:54:58 --INFO -- 查找模板计时:41.895
+2026-03-30 10:54:58 --INFO -- 转机械坐标:像素坐标[1490.033,1926.582],拍照机械坐标[-136.01829528808594,1508.4427490234375],转换定位机械坐标[116.29037862614757,1541.4361681941784]
+2026-03-30 10:54:59 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:08 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:08 --INFO -- Read D531 is 21
+2026-03-30 10:55:08 --INFO -- Reading D5000 is -342.747
+2026-03-30 10:55:08 --INFO -- Reading D5002 is 2341.6301
+2026-03-30 10:55:08 --INFO -- Reading D5004 is 79.97537
+2026-03-30 10:55:08 --INFO -- Reading D5010 is -0.08890945
+2026-03-30 10:55:09 --INFO -- 查找模板计时:39.8378
+2026-03-30 10:55:09 --INFO -- 转机械坐标:像素坐标[1454.233,1835.011],拍照机械坐标[-342.74700927734375,2341.630126953125],转换定位机械坐标[-82.09067126448889,2378.098955489478]
+2026-03-30 10:55:09 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:13 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:13 --INFO -- Read D531 is 22
+2026-03-30 10:55:13 --INFO -- Reading D5000 is -342.76392
+2026-03-30 10:55:13 --INFO -- Reading D5002 is 2131.6562
+2026-03-30 10:55:13 --INFO -- Reading D5004 is 75.83885
+2026-03-30 10:55:13 --INFO -- Reading D5010 is -0.094008215
+2026-03-30 10:55:14 --INFO -- 查找模板计时:39.1094
+2026-03-30 10:55:14 --INFO -- 转机械坐标:像素坐标[1446.396,1851.017],拍照机械坐标[-342.763916015625,2131.65625],转换定位机械坐标[-83.59718303165783,2168.812908281663]
+2026-03-30 10:55:14 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:18 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:18 --INFO -- Read D531 is 23
+2026-03-30 10:55:18 --INFO -- Reading D5000 is -342.8357
+2026-03-30 10:55:18 --INFO -- Reading D5002 is 1924.4614
+2026-03-30 10:55:18 --INFO -- Reading D5004 is 73.46657
+2026-03-30 10:55:19 --INFO -- Reading D5010 is -0.09895506
+2026-03-30 10:55:19 --INFO -- 查找模板计时:30.0729
+2026-03-30 10:55:19 --INFO -- 转机械坐标:像素坐标[1443.21,1862.48],拍照机械坐标[-342.835693359375,1924.46142578125],转换定位机械坐标[-84.73052004095814,1961.887677897019]
+2026-03-30 10:55:19 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:23 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:23 --INFO -- Read D531 is 24
+2026-03-30 10:55:23 --INFO -- Reading D5000 is -342.76733
+2026-03-30 10:55:23 --INFO -- Reading D5002 is 1715.6577
+2026-03-30 10:55:24 --INFO -- Reading D5004 is 71.54961
+2026-03-30 10:55:24 --INFO -- Reading D5010 is -0.10309628
+2026-03-30 10:55:24 --INFO -- 查找模板计时:40.6072
+2026-03-30 10:55:24 --INFO -- 转机械坐标:像素坐标[1429.213,1888.222],拍照机械坐标[-342.767333984375,1715.65771484375],转换定位机械坐标[-87.0608638114665,1754.3181998509401]
+2026-03-30 10:55:24 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:29 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:29 --INFO -- Read D531 is 25
+2026-03-30 10:55:29 --INFO -- Reading D5000 is -342.82175
+2026-03-30 10:55:29 --INFO -- Reading D5002 is 1505.7186
+2026-03-30 10:55:29 --INFO -- Reading D5004 is 73.824875
+2026-03-30 10:55:29 --INFO -- Reading D5010 is -0.10794789
+2026-03-30 10:55:29 --INFO -- 查找模板计时:39.7769
+2026-03-30 10:55:29 --INFO -- 转机械坐标:像素坐标[1417.874,1908.437],拍照机械坐标[-342.8217468261719,1505.7186279296875],转换定位机械坐标[-88.99971147042112,1545.3802603950428]
+2026-03-30 10:55:30 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:37 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 10:55:37 --INFO -- Read D531 is 26
+2026-03-30 10:55:37 --INFO -- Reading D5000 is 34.019028
+2026-03-30 10:55:37 --INFO -- Reading D5002 is 1920.1807
+2026-03-30 10:55:37 --INFO -- Reading D5004 is 73.0831
+2026-03-30 10:55:37 --INFO -- Reading D5010 is -0.12282016
+2026-03-30 10:55:37 --INFO -- 查找模板计时:41.3572
+2026-03-30 10:55:37 --INFO -- 转机械坐标:像素坐标[1468.168,1474.875],拍照机械坐标[34.01902770996094,1920.1806640625],转换定位机械坐标[327.8402774002619,1956.0978200199895]
+2026-03-30 10:55:38 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:55:58 --INFO -- 写三轴坐标事件触发:触发类型[变化],消息[D500变为5].
+2026-03-30 10:55:59 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.9780345742968,1431.7580028858156;2:741.4765004126828,2367.495594188749;3:-87.47874902974814,2378.1808349217313].
+2026-03-30 10:55:59 --INFO -- [Mark点间标定1]标定信息：[平移X:5.7732535936813045;平移Y:1746.403003994603;X当量:1.008776860707083;Y当量:0.998148096688158;旋转角度:0.19035194822885668;倾斜角度:-0.5152555972973182;RMS:3.863157536178559E-13]误差：4.547473508864641E-13,列误差：1.7053025658242404E-13.
+2026-03-30 10:55:59 --INFO -- [Mark点间标定2]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.9780345742968,1431.7580028858156;2:741.4765004126828,2367.495594188749;3:-87.47874902974814,2378.1808349217313].
+2026-03-30 10:55:59 --INFO -- [Mark点间标定2]标定信息：[平移X:5.7732535936813045;平移Y:1746.403003994603;X当量:1.008776860707083;Y当量:0.998148096688158;旋转角度:0.19035194822885668;倾斜角度:-0.5152555972973182;RMS:3.863157536178559E-13]误差：4.547473508864641E-13,列误差：1.7053025658242404E-13.
+2026-03-30 10:56:20 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:58:41 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 10:58:42 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:58:53 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:58:53 --INFO -- 查找模板计时:239.6367
+2026-03-30 10:58:54 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:58:56 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 10:58:57 --INFO -- 查找模板计时:242.22
+2026-03-30 10:58:57 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:59:00 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:59:00 --INFO -- Read D530 is 1
+2026-03-30 10:59:00 --INFO -- Reading D5000 is 478.26578
+2026-03-30 10:59:00 --INFO -- Reading D5002 is 1438.459
+2026-03-30 10:59:00 --INFO -- Reading D5004 is 69.60729
+2026-03-30 10:59:00 --INFO -- Reading D5010 is 0
+2026-03-30 10:59:00 --INFO -- Reading D5006 is 179.2603
+2026-03-30 10:59:00 --INFO -- Reading D5008 is 0.008983597
+2026-03-30 10:59:00 --INFO -- Read D532 is 2
+2026-03-30 10:59:00 --INFO -- 查找模板计时:43.9396
+2026-03-30 10:59:00 --INFO -- 转机械坐标:像素坐标[1920.268,1997.451],拍照机械坐标[478.2657775878906,1438.458984375],转换定位机械坐标[724.984731231247,1431.7699222225806]
+2026-03-30 10:59:01 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:59:10 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:59:10 --INFO -- Read D530 is 2
+2026-03-30 10:59:10 --INFO -- Reading D5000 is 486.89905
+2026-03-30 10:59:10 --INFO -- Reading D5002 is 2376.284
+2026-03-30 10:59:10 --INFO -- Reading D5004 is 78.11353
+2026-03-30 10:59:10 --INFO -- Reading D5010 is 0
+2026-03-30 10:59:10 --INFO -- Reading D5006 is 179.2566
+2026-03-30 10:59:10 --INFO -- Reading D5008 is 0
+2026-03-30 10:59:10 --INFO -- Read D532 is 2
+2026-03-30 10:59:10 --INFO -- 查找模板计时:30.5477
+2026-03-30 10:59:10 --INFO -- 转机械坐标:像素坐标[1944.888,1913.395],拍照机械坐标[486.8990478515625,2376.283935546875],转换定位机械坐标[741.4049372801655,2367.5024121278507]
+2026-03-30 10:59:11 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:59:19 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 10:59:19 --INFO -- Read D530 is 3
+2026-03-30 10:59:19 --INFO -- Reading D5000 is -340.87378
+2026-03-30 10:59:19 --INFO -- Reading D5002 is 2386.5566
+2026-03-30 10:59:19 --INFO -- Reading D5004 is 80.35681
+2026-03-30 10:59:19 --INFO -- Reading D5010 is 0
+2026-03-30 10:59:19 --INFO -- Reading D5006 is 179.25955
+2026-03-30 10:59:19 --INFO -- Reading D5008 is 0
+2026-03-30 10:59:19 --INFO -- Read D532 is 2
+2026-03-30 10:59:19 --INFO -- 查找模板计时:44.585
+2026-03-30 10:59:19 --INFO -- 转机械坐标:像素坐标[1940.362,1924.985],拍照机械坐标[-340.873779296875,2386.556640625],转换定位机械坐标[-87.44403297780144,2378.1676013301335]
+2026-03-30 10:59:20 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 10:59:27 --INFO -- 写三轴坐标事件触发:触发类型[变化],消息[D500变为5].
+2026-03-30 10:59:28 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.984731231247,1431.7699222225806;2:741.4049372801655,2367.5024121278507;3:-87.44403297780144,2378.1676013301335].
+2026-03-30 10:59:28 --INFO -- [Mark点间标定1]标定信息：[平移X:5.847314642653967;平移Y:1746.3957318934222;X当量:1.0086462788077897;Y当量:0.9981419060890591;旋转角度:0.19175723444327808;倾斜角度:-0.5119595567398657;RMS:5.084229945850415E-13]误差：4.547473508864641E-13,列误差：2.4158453015843406E-13.
+2026-03-30 10:59:28 --INFO -- [Mark点间标定2]首坐标表[1:724.9780345742968,1431.7580028858156;2:741.4765004126828,2367.495594188749;3:-87.47874902974814,2378.1808349217313],次坐标列表[1:724.984731231247,1431.7699222225806;2:741.4049372801655,2367.5024121278507;3:-87.44403297780144,2378.1676013301335].
+2026-03-30 10:59:28 --INFO -- [Mark点间标定2]标定信息：[平移X:0.21688648113214068;平移Y:0.0028521076169305175;X当量:0.9998707430288639;Y当量:0.9999941264182969;旋转角度:0.0013817611873707023;倾斜角度:0.0032795833942457675;RMS:3.224956150776909E-13]误差：0,列误差：1.1368683772161603E-13.
+2026-03-30 10:59:28 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:01:55 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 11:01:56 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:07 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:02:07 --INFO -- 查找模板计时:164.8968
+2026-03-30 11:02:08 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:10 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:02:11 --INFO -- 查找模板计时:232.7239
+2026-03-30 11:02:11 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:14 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:02:14 --INFO -- Read D530 is 1
+2026-03-30 11:02:14 --INFO -- Reading D5000 is 478.26825
+2026-03-30 11:02:14 --INFO -- Reading D5002 is 1438.46
+2026-03-30 11:02:14 --INFO -- Reading D5004 is 69.99464
+2026-03-30 11:02:14 --INFO -- Reading D5010 is 0
+2026-03-30 11:02:14 --INFO -- Reading D5006 is 179.26033
+2026-03-30 11:02:14 --INFO -- Reading D5008 is 0.008943542
+2026-03-30 11:02:14 --INFO -- Read D532 is 2
+2026-03-30 11:02:14 --INFO -- 查找模板计时:42.032
+2026-03-30 11:02:14 --INFO -- 转机械坐标:像素坐标[1924.011,2000.713],拍照机械坐标[478.26824951171875,1438.4599609375],转换定位机械坐标[724.6951754689876,1431.4203105296144]
+2026-03-30 11:02:15 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:24 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:02:24 --INFO -- Read D530 is 2
+2026-03-30 11:02:24 --INFO -- Reading D5000 is 486.8796
+2026-03-30 11:02:24 --INFO -- Reading D5002 is 2376.2683
+2026-03-30 11:02:24 --INFO -- Reading D5004 is 78.077934
+2026-03-30 11:02:24 --INFO -- Reading D5010 is 0
+2026-03-30 11:02:24 --INFO -- Reading D5006 is 179.25577
+2026-03-30 11:02:24 --INFO -- Reading D5008 is 0
+2026-03-30 11:02:24 --INFO -- Read D532 is 2
+2026-03-30 11:02:25 --INFO -- 查找模板计时:30.982
+2026-03-30 11:02:25 --INFO -- 转机械坐标:像素坐标[1939.181,1917.039],拍照机械坐标[486.8796081542969,2376.268310546875],转换定位机械坐标[741.0378815428787,2368.0038902159004]
+2026-03-30 11:02:25 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:33 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:02:33 --INFO -- Read D530 is 3
+2026-03-30 11:02:33 --INFO -- Reading D5000 is -340.86914
+2026-03-30 11:02:33 --INFO -- Reading D5002 is 2386.5652
+2026-03-30 11:02:33 --INFO -- Reading D5004 is 80.78186
+2026-03-30 11:02:33 --INFO -- Reading D5010 is 0
+2026-03-30 11:02:33 --INFO -- Reading D5006 is 179.26004
+2026-03-30 11:02:33 --INFO -- Reading D5008 is 0
+2026-03-30 11:02:33 --INFO -- Read D532 is 2
+2026-03-30 11:02:33 --INFO -- 查找模板计时:43.2337
+2026-03-30 11:02:33 --INFO -- 转机械坐标:像素坐标[1942.132,1929.046],拍照机械坐标[-340.869140625,2386.565185546875],转换定位机械坐标[-87.80920293232708,2378.0052614010056]
+2026-03-30 11:02:34 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:41 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:02:41 --INFO -- Read D531 is 1
+2026-03-30 11:02:41 --INFO -- Reading D5000 is 484.5299
+2026-03-30 11:02:41 --INFO -- Reading D5002 is 2331.184
+2026-03-30 11:02:41 --INFO -- Reading D5004 is 77.16832
+2026-03-30 11:02:41 --INFO -- Reading D5010 is -0.006922389
+2026-03-30 11:02:41 --INFO -- 查找模板计时:31.6726
+2026-03-30 11:02:41 --INFO -- 转机械坐标:像素坐标[1459.558,1829.338],拍照机械坐标[484.5299072265625,2331.18408203125],转换定位机械坐标[745.7197156579966,2367.175020659582]
+2026-03-30 11:02:42 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:45 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:02:45 --INFO -- Read D531 is 2
+2026-03-30 11:02:45 --INFO -- Reading D5000 is 484.5109
+2026-03-30 11:02:45 --INFO -- Reading D5002 is 2121.3586
+2026-03-30 11:02:45 --INFO -- Reading D5004 is 72.732
+2026-03-30 11:02:45 --INFO -- Reading D5010 is -0.009992604
+2026-03-30 11:02:45 --INFO -- 查找模板计时:39.8326
+2026-03-30 11:02:45 --INFO -- 转机械坐标:像素坐标[1445.037,1862.423],拍照机械坐标[484.5108947753906,2121.358642578125],转换定位机械坐标[742.6252645633318,2158.617106920532]
+2026-03-30 11:02:46 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:49 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:02:49 --INFO -- Read D531 is 3
+2026-03-30 11:02:49 --INFO -- Reading D5000 is 484.56317
+2026-03-30 11:02:49 --INFO -- Reading D5002 is 1914.6882
+2026-03-30 11:02:49 --INFO -- Reading D5004 is 65.139244
+2026-03-30 11:02:49 --INFO -- Reading D5010 is -0.013072805
+2026-03-30 11:02:49 --INFO -- 查找模板计时:35.7018
+2026-03-30 11:02:49 --INFO -- 转机械坐标:像素坐标[1454.131,1891.751],拍照机械坐标[484.56317138671875,1914.688232421875],转换定位机械坐标[739.998853336062,1951.0515847882268]
+2026-03-30 11:02:50 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:53 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:02:53 --INFO -- Read D531 is 4
+2026-03-30 11:02:53 --INFO -- Reading D5000 is 484.57632
+2026-03-30 11:02:53 --INFO -- Reading D5002 is 1698.1122
+2026-03-30 11:02:53 --INFO -- Reading D5004 is 70.60344
+2026-03-30 11:02:53 --INFO -- Reading D5010 is -0.018053504
+2026-03-30 11:02:53 --INFO -- 查找模板计时:45.6128
+2026-03-30 11:02:53 --INFO -- 转机械坐标:像素坐标[1348.897,1929.07],拍照机械坐标[484.5763244628906,1698.1121826171875],转换定位机械坐标[736.3507855627281,1744.0711070020334]
+2026-03-30 11:02:54 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:02:56 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:02:56 --INFO -- Read D531 is 5
+2026-03-30 11:02:56 --INFO -- Reading D5000 is 484.5435
+2026-03-30 11:02:56 --INFO -- Reading D5002 is 1496.1062
+2026-03-30 11:02:56 --INFO -- Reading D5004 is 68.63355
+2026-03-30 11:02:56 --INFO -- Reading D5010 is -0.020193761
+2026-03-30 11:02:57 --INFO -- 查找模板计时:30.1409
+2026-03-30 11:02:57 --INFO -- 转机械坐标:像素坐标[1416.525,1974.674],拍照机械坐标[484.5434875488281,1496.106201171875],转换定位机械坐标[732.2683858781372,1535.7577347102776]
+2026-03-30 11:02:57 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:02 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:02 --INFO -- Read D531 is 6
+2026-03-30 11:03:02 --INFO -- Reading D5000 is 277.91544
+2026-03-30 11:03:02 --INFO -- Reading D5002 is 2335.075
+2026-03-30 11:03:02 --INFO -- Reading D5004 is 79.63336
+2026-03-30 11:03:02 --INFO -- Reading D5010 is -0.024922239
+2026-03-30 11:03:02 --INFO -- 查找模板计时:38.9428
+2026-03-30 11:03:02 --INFO -- 转机械坐标:像素坐标[1499.209,1828.17],拍照机械坐标[277.9154357910156,2335.074951171875],转换定位机械坐标[539.2984794117068,2367.424286959387]
+2026-03-30 11:03:03 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:06 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:06 --INFO -- Read D531 is 7
+2026-03-30 11:03:06 --INFO -- Reading D5000 is 277.89847
+2026-03-30 11:03:06 --INFO -- Reading D5002 is 2123.6985
+2026-03-30 11:03:06 --INFO -- Reading D5004 is 73.4407
+2026-03-30 11:03:06 --INFO -- Reading D5010 is -0.028981468
+2026-03-30 11:03:06 --INFO -- 查找模板计时:39.2765
+2026-03-30 11:03:06 --INFO -- 转机械坐标:像素坐标[1445.765,1856.893],拍照机械坐标[277.8984680175781,2123.698486328125],转换定位机械坐标[536.5232072336264,2160.90124026371]
+2026-03-30 11:03:07 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:10 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:10 --INFO -- Read D531 is 8
+2026-03-30 11:03:10 --INFO -- Reading D5000 is 277.84906
+2026-03-30 11:03:10 --INFO -- Reading D5002 is 1915.9639
+2026-03-30 11:03:10 --INFO -- Reading D5004 is 69.913376
+2026-03-30 11:03:10 --INFO -- Reading D5010 is -0.03212245
+2026-03-30 11:03:10 --INFO -- 查找模板计时:38.7678
+2026-03-30 11:03:10 --INFO -- 转机械坐标:像素坐标[1439.107,1887.608],拍照机械坐标[277.84906005859375,1915.9638671875],转换定位机械坐标[533.6334244863823,1953.7163264036458]
+2026-03-30 11:03:11 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:13 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:13 --INFO -- Read D531 is 9
+2026-03-30 11:03:13 --INFO -- Reading D5000 is 277.8839
+2026-03-30 11:03:13 --INFO -- Reading D5002 is 1704.2949
+2026-03-30 11:03:13 --INFO -- Reading D5004 is 69.50178
+2026-03-30 11:03:14 --INFO -- Reading D5010 is -0.036043867
+2026-03-30 11:03:14 --INFO -- 查找模板计时:36.3673
+2026-03-30 11:03:14 --INFO -- 转机械坐标:像素坐标[1402.458,1922.994],拍照机械坐标[277.8839111328125,1704.294921875],转换定位机械坐标[530.3332638671275,1745.3438348471896]
+2026-03-30 11:03:14 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:17 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:17 --INFO -- Read D531 is 10
+2026-03-30 11:03:17 --INFO -- Reading D5000 is 277.85236
+2026-03-30 11:03:17 --INFO -- Reading D5002 is 1501.8479
+2026-03-30 11:03:17 --INFO -- Reading D5004 is 65.534035
+2026-03-30 11:03:17 --INFO -- Reading D5010 is -0.039129406
+2026-03-30 11:03:17 --INFO -- 查找模板计时:38.2789
+2026-03-30 11:03:17 --INFO -- 转机械坐标:像素坐标[1452.365,1957.843],拍照机械坐标[277.85235595703125,1501.847900390625],转换定位机械坐标[527.2033397461227,1538.2397700534532]
+2026-03-30 11:03:18 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:23 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:23 --INFO -- Read D531 is 11
+2026-03-30 11:03:23 --INFO -- Reading D5000 is 67.96133
+2026-03-30 11:03:23 --INFO -- Reading D5002 is 2334.301
+2026-03-30 11:03:23 --INFO -- Reading D5004 is 75.292534
+2026-03-30 11:03:23 --INFO -- Reading D5010 is -0.043904506
+2026-03-30 11:03:23 --INFO -- 查找模板计时:28.1992
+2026-03-30 11:03:23 --INFO -- 转机械坐标:像素坐标[1458.231,1799.605],拍照机械坐标[67.9613265991211,2334.301025390625],转换定位机械坐标[331.8838867512334,2370.4741006107897]
+2026-03-30 11:03:24 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:27 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:27 --INFO -- Read D531 is 12
+2026-03-30 11:03:27 --INFO -- Reading D5000 is 67.95756
+2026-03-30 11:03:27 --INFO -- Reading D5002 is 2126.586
+2026-03-30 11:03:27 --INFO -- Reading D5004 is 74.26256
+2026-03-30 11:03:27 --INFO -- Reading D5010 is -0.047950182
+2026-03-30 11:03:27 --INFO -- 查找模板计时:41.3876
+2026-03-30 11:03:27 --INFO -- 转机械坐标:像素坐标[1455.729,1829.92],拍照机械坐标[67.95755767822266,2126.5859375],转换定位机械坐标[329.085535684215,2162.927587051663]
+2026-03-30 11:03:28 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:31 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:31 --INFO -- Read D531 is 13
+2026-03-30 11:03:31 --INFO -- Reading D5000 is 67.97696
+2026-03-30 11:03:31 --INFO -- Reading D5002 is 1919.6573
+2026-03-30 11:03:31 --INFO -- Reading D5004 is 70.36303
+2026-03-30 11:03:31 --INFO -- Reading D5010 is -0.051983204
+2026-03-30 11:03:31 --INFO -- 查找模板计时:38.4991
+2026-03-30 11:03:31 --INFO -- 转机械坐标:像素坐标[1447.788,1856.116],拍照机械坐标[67.97695922851562,1919.6573486328125],转换定位机械坐标[326.677563405593,1956.6757595820893]
+2026-03-30 11:03:32 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:35 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:35 --INFO -- Read D531 is 14
+2026-03-30 11:03:35 --INFO -- Reading D5000 is 68.00653
+2026-03-30 11:03:35 --INFO -- Reading D5002 is 1707.3595
+2026-03-30 11:03:35 --INFO -- Reading D5004 is 69.51299
+2026-03-30 11:03:35 --INFO -- Reading D5010 is -0.057094526
+2026-03-30 11:03:35 --INFO -- 查找模板计时:44.2734
+2026-03-30 11:03:36 --INFO -- 转机械坐标:像素坐标[1399.516,1887.648],拍照机械坐标[68.00653076171875,1707.3594970703125],转换定位机械坐标[323.7015728562864,1748.7503283038022]
+2026-03-30 11:03:36 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:39 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:39 --INFO -- Read D531 is 15
+2026-03-30 11:03:39 --INFO -- Reading D5000 is 69.03395
+2026-03-30 11:03:39 --INFO -- Reading D5002 is 1501.8696
+2026-03-30 11:03:39 --INFO -- Reading D5004 is 76.32437
+2026-03-30 11:03:39 --INFO -- Reading D5010 is -0.06218501
+2026-03-30 11:03:40 --INFO -- 查找模板计时:42.3049
+2026-03-30 11:03:40 --INFO -- 转机械坐标:像素坐标[1441.441,1907.959],拍照机械坐标[69.03395080566406,1501.86962890625],转换定位机械坐标[322.9509445944265,1539.3663977536494]
+2026-03-30 11:03:40 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:46 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:46 --INFO -- Read D531 is 16
+2026-03-30 11:03:46 --INFO -- Reading D5000 is -135.79727
+2026-03-30 11:03:46 --INFO -- Reading D5002 is 2342.367
+2026-03-30 11:03:46 --INFO -- Reading D5004 is 78.80548
+2026-03-30 11:03:46 --INFO -- Reading D5010 is -0.06587738
+2026-03-30 11:03:46 --INFO -- 查找模板计时:38.6242
+2026-03-30 11:03:46 --INFO -- 转机械坐标:像素坐标[1496.344,1853.283],拍照机械坐标[-135.79727172851562,2342.366943359375],转换定位机械坐标[123.26902110056756,2374.9287431560697]
+2026-03-30 11:03:47 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:50 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:50 --INFO -- Read D531 is 17
+2026-03-30 11:03:50 --INFO -- Reading D5000 is -135.7979
+2026-03-30 11:03:50 --INFO -- Reading D5002 is 2128.3838
+2026-03-30 11:03:50 --INFO -- Reading D5004 is 74.69077
+2026-03-30 11:03:50 --INFO -- Reading D5010 is -0.07101801
+2026-03-30 11:03:50 --INFO -- 查找模板计时:40.0905
+2026-03-30 11:03:50 --INFO -- 转机械坐标:像素坐标[1437.989,1864.43],拍照机械坐标[-135.7978973388672,2128.3837890625],转换定位机械坐标[122.11656985162278,2166.2859092784734]
+2026-03-30 11:03:51 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:54 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:54 --INFO -- Read D531 is 18
+2026-03-30 11:03:54 --INFO -- Reading D5000 is -135.79755
+2026-03-30 11:03:54 --INFO -- Reading D5002 is 1919.8761
+2026-03-30 11:03:54 --INFO -- Reading D5004 is 71.9259
+2026-03-30 11:03:54 --INFO -- Reading D5010 is -0.07595609
+2026-03-30 11:03:55 --INFO -- 查找模板计时:40.1084
+2026-03-30 11:03:55 --INFO -- 转机械坐标:像素坐标[1416.893,1887.982],拍照机械坐标[-135.79754638671875,1919.8760986328125],转换定位机械坐标[119.90435502918132,1959.6692899083312]
+2026-03-30 11:03:55 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:03:59 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:03:59 --INFO -- Read D531 is 19
+2026-03-30 11:03:59 --INFO -- Reading D5000 is -135.88216
+2026-03-30 11:03:59 --INFO -- Reading D5002 is 1715.0222
+2026-03-30 11:03:59 --INFO -- Reading D5004 is 71.204185
+2026-03-30 11:03:59 --INFO -- Reading D5010 is -0.080071405
+2026-03-30 11:03:59 --INFO -- 查找模板计时:40.2376
+2026-03-30 11:03:59 --INFO -- 转机械坐标:像素坐标[1452.396,1909.996],拍照机械坐标[-135.8821563720703,1715.022216796875],转换定位机械坐标[117.87111818955685,1751.508086866628]
+2026-03-30 11:04:00 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:03 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:03 --INFO -- Read D531 is 20
+2026-03-30 11:04:03 --INFO -- Reading D5000 is -136.0422
+2026-03-30 11:04:03 --INFO -- Reading D5002 is 1508.4298
+2026-03-30 11:04:03 --INFO -- Reading D5004 is 70.61043
+2026-03-30 11:04:03 --INFO -- Reading D5010 is -0.08408688
+2026-03-30 11:04:03 --INFO -- 查找模板计时:43.0368
+2026-03-30 11:04:03 --INFO -- 转机械坐标:像素坐标[1482.35,1937.961],拍照机械坐标[-136.04220581054688,1508.4298095703125],转换定位机械坐标[115.20290918664375,1542.1062714563745]
+2026-03-30 11:04:04 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:09 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:09 --INFO -- Read D531 is 21
+2026-03-30 11:04:09 --INFO -- Reading D5000 is -342.7397
+2026-03-30 11:04:09 --INFO -- Reading D5002 is 2341.645
+2026-03-30 11:04:09 --INFO -- Reading D5004 is 79.64539
+2026-03-30 11:04:09 --INFO -- Reading D5010 is -0.088855855
+2026-03-30 11:04:10 --INFO -- 查找模板计时:28.7165
+2026-03-30 11:04:10 --INFO -- 转机械坐标:像素坐标[1454.667,1838.39],拍照机械坐标[-342.73968505859375,2341.64501953125],转换定位机械坐标[-82.39329739584997,2378.0671234371325]
+2026-03-30 11:04:10 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:14 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:14 --INFO -- Read D531 is 22
+2026-03-30 11:04:14 --INFO -- Reading D5000 is -342.7669
+2026-03-30 11:04:14 --INFO -- Reading D5002 is 2131.647
+2026-03-30 11:04:14 --INFO -- Reading D5004 is 75.813194
+2026-03-30 11:04:14 --INFO -- Reading D5010 is -0.094056465
+2026-03-30 11:04:14 --INFO -- 查找模板计时:39.1188
+2026-03-30 11:04:14 --INFO -- 转机械坐标:像素坐标[1453.231,1865.296],拍照机械坐标[-342.76690673828125,2131.64697265625],转换定位机械坐标[-84.89914592789893,2168.146584729849]
+2026-03-30 11:04:15 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:18 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:18 --INFO -- Read D531 is 23
+2026-03-30 11:04:18 --INFO -- Reading D5000 is -342.82666
+2026-03-30 11:04:18 --INFO -- Reading D5002 is 1924.4745
+2026-03-30 11:04:18 --INFO -- Reading D5004 is 73.101036
+2026-03-30 11:04:18 --INFO -- Reading D5010 is -0.09902886
+2026-03-30 11:04:18 --INFO -- 查找模板计时:41.596
+2026-03-30 11:04:18 --INFO -- 转机械坐标:像素坐标[1444.097,1877.179],拍照机械坐标[-342.82666015625,1924.4744873046875],转换定位机械坐标[-86.07196818034669,1961.7894702928031]
+2026-03-30 11:04:19 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:22 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:22 --INFO -- Read D531 is 24
+2026-03-30 11:04:22 --INFO -- Reading D5000 is -342.7891
+2026-03-30 11:04:22 --INFO -- Reading D5002 is 1715.6344
+2026-03-30 11:04:22 --INFO -- Reading D5004 is 71.50026
+2026-03-30 11:04:22 --INFO -- Reading D5010 is -0.10304904
+2026-03-30 11:04:22 --INFO -- 查找模板计时:39.0979
+2026-03-30 11:04:22 --INFO -- 转机械坐标:像素坐标[1428.456,1903.093],拍照机械坐标[-342.7890930175781,1715.6343994140625],转换定位机械坐标[-88.45248551687024,1754.334352404837]
+2026-03-30 11:04:23 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:26 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:26 --INFO -- Read D531 is 25
+2026-03-30 11:04:26 --INFO -- Reading D5000 is -342.8055
+2026-03-30 11:04:26 --INFO -- Reading D5002 is 1505.7299
+2026-03-30 11:04:26 --INFO -- Reading D5004 is 73.09605
+2026-03-30 11:04:26 --INFO -- Reading D5010 is -0.10810845
+2026-03-30 11:04:26 --INFO -- 查找模板计时:39.4659
+2026-03-30 11:04:26 --INFO -- 转机械坐标:像素坐标[1414.143,1925.027],拍照机械坐标[-342.8055114746094,1505.7298583984375],转换定位机械坐标[-90.51793082791988,1545.7007929504912]
+2026-03-30 11:04:27 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:04:32 --INFO -- 电芯拍照事件触发:触发类型[变化],消息[D500变为4].
+2026-03-30 11:04:32 --INFO -- Read D531 is 26
+2026-03-30 11:04:32 --INFO -- Reading D5000 is 33.996357
+2026-03-30 11:04:32 --INFO -- Reading D5002 is 1920.1611
+2026-03-30 11:04:32 --INFO -- Reading D5004 is 72.25728
+2026-03-30 11:04:32 --INFO -- Reading D5010 is -0.12293433
+2026-03-30 11:04:32 --INFO -- 查找模板计时:35.6236
+2026-03-30 11:04:32 --INFO -- 转机械坐标:像素坐标[1458.77,1482.535],拍照机械坐标[33.99635696411133,1920.1611328125],转换定位机械坐标[327.09250919585406,1956.9264695225215]
+2026-03-30 11:04:33 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:13 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 11:05:14 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:26 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:05:26 --INFO -- 查找模板计时:234.8778
+2026-03-30 11:05:27 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:29 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:05:29 --INFO -- 查找模板计时:241.2823
+2026-03-30 11:05:30 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:32 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:05:33 --INFO -- Read D530 is 1
+2026-03-30 11:05:33 --INFO -- Reading D5000 is 478.25037
+2026-03-30 11:05:33 --INFO -- Reading D5002 is 1438.4557
+2026-03-30 11:05:33 --INFO -- Reading D5004 is 69.962006
+2026-03-30 11:05:33 --INFO -- Reading D5010 is 0
+2026-03-30 11:05:33 --INFO -- Reading D5006 is 179.26001
+2026-03-30 11:05:33 --INFO -- Reading D5008 is 0.007967236
+2026-03-30 11:05:33 --INFO -- Read D532 is 2
+2026-03-30 11:05:33 --INFO -- 查找模板计时:42.6521
+2026-03-30 11:05:33 --INFO -- 转机械坐标:像素坐标[1923.858,2000.596],拍照机械坐标[478.2503662109375,1438.4556884765625],转换定位机械坐标[724.6877259360117,1431.4303357487213]
+2026-03-30 11:05:33 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:43 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:05:43 --INFO -- Read D530 is 2
+2026-03-30 11:05:43 --INFO -- Reading D5000 is 486.89908
+2026-03-30 11:05:43 --INFO -- Reading D5002 is 2376.2878
+2026-03-30 11:05:43 --INFO -- Reading D5004 is 77.75679
+2026-03-30 11:05:43 --INFO -- Reading D5010 is 0
+2026-03-30 11:05:43 --INFO -- Reading D5006 is 179.257
+2026-03-30 11:05:43 --INFO -- Reading D5008 is 0
+2026-03-30 11:05:43 --INFO -- Read D532 is 2
+2026-03-30 11:05:43 --INFO -- 查找模板计时:29.0238
+2026-03-30 11:05:43 --INFO -- 转机械坐标:像素坐标[1940.174,1917.649],拍照机械坐标[486.8990783691406,2376.287841796875],转换定位机械坐标[741.0033759649657,2367.930929031181]
+2026-03-30 11:05:44 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:05:52 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:05:52 --INFO -- Read D530 is 3
+2026-03-30 11:05:52 --INFO -- Reading D5000 is -340.8744
+2026-03-30 11:05:52 --INFO -- Reading D5002 is 2386.5574
+2026-03-30 11:05:52 --INFO -- Reading D5004 is 80.74418
+2026-03-30 11:05:52 --INFO -- Reading D5010 is 0
+2026-03-30 11:05:52 --INFO -- Reading D5006 is 179.25935
+2026-03-30 11:05:52 --INFO -- Reading D5008 is 0
+2026-03-30 11:05:52 --INFO -- Read D532 is 2
+2026-03-30 11:05:52 --INFO -- 查找模板计时:41.7891
+2026-03-30 11:05:52 --INFO -- 转机械坐标:像素坐标[1941.628,1928.781],拍照机械坐标[-340.8743896484375,2386.557373046875],转换定位机械坐标[-87.7911605337253,2378.0443034100977]
+2026-03-30 11:05:53 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:06:00 --INFO -- 写三轴坐标事件触发:触发类型[变化],消息[D500变为5].
+2026-03-30 11:06:00 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:06:00 --INFO -- [Mark点间标定1]标定信息：[平移X:5.563776053182217;平移Y:1745.8244161159048;X当量:1.0085807539585954;Y当量:0.9989525297217675;旋转角度:0.2306690896909046;倾斜角度:-0.5442606459438605;RMS:2.5007335985218545E-13]误差：4.547473508864641E-13,列误差：2.4158453015843406E-13.
+2026-03-30 11:06:00 --INFO -- [Mark点间标定2]首坐标表[1:724.6951754689876,1431.4203105296144;2:741.0378815428787,2368.0038902159004;3:-87.80920293232708,2378.0052614010056],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:06:00 --INFO -- [Mark点间标定2]标定信息：[平移X:0.07849721588116018;平移Y:0.2321387057750776;X当量:0.9999362752314485;Y当量:0.9999137710414359;旋转角度:-0.007802567089432133;倾斜角度:0.009394146563272067;RMS:3.6701441019161385E-13]误差：2.2737367544323206E-13,列误差：1.1368683772161603E-13.
+2026-03-30 11:06:01 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:07:33 --INFO -- 打开[测距仪]成功:.
+2026-03-30 11:07:33 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:07:33 --INFO -- [Mark点间标定1]标定信息：[平移X:5.563776053182217;平移Y:1745.8244161159048;X当量:1.0085807539585954;Y当量:0.9989525297217675;旋转角度:0.2306690896909046;倾斜角度:-0.5442606459438605;RMS:2.5007335985218545E-13]误差：4.547473508864641E-13,列误差：2.4158453015843406E-13.
+2026-03-30 11:07:33 --INFO -- [Mark点间标定2]首坐标表[1:724.6951754689876,1431.4203105296144;2:741.0378815428787,2368.0038902159004;3:-87.80920293232708,2378.0052614010056],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:07:33 --INFO -- [Mark点间标定2]标定信息：[平移X:0.07849721588116018;平移Y:0.2321387057750776;X当量:0.9999362752314485;Y当量:0.9999137710414359;旋转角度:-0.007802567089432133;倾斜角度:0.009394146563272067;RMS:3.6701441019161385E-13]误差：2.2737367544323206E-13,列误差：1.1368683772161603E-13.
+2026-03-30 11:07:36 --INFO -- Reading D5000 is 748.07355
+2026-03-30 11:07:36 --INFO -- Reading D5002 is 2316.244
+2026-03-30 11:07:44 --INFO -- 打开[测距仪]成功:.
+2026-03-30 11:07:44 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:07:44 --INFO -- [Mark点间标定1]标定信息：[平移X:5.563776053182217;平移Y:1745.8244161159048;X当量:1.0085807539585954;Y当量:0.9989525297217675;旋转角度:0.2306690896909046;倾斜角度:-0.5442606459438605;RMS:2.5007335985218545E-13]误差：4.547473508864641E-13,列误差：2.4158453015843406E-13.
+2026-03-30 11:07:44 --INFO -- [Mark点间标定2]首坐标表[1:724.6951754689876,1431.4203105296144;2:741.0378815428787,2368.0038902159004;3:-87.80920293232708,2378.0052614010056],次坐标列表[1:724.6877259360117,1431.4303357487213;2:741.0033759649657,2367.930929031181;3:-87.7911605337253,2378.0443034100977].
+2026-03-30 11:07:44 --INFO -- [Mark点间标定2]标定信息：[平移X:0.07849721588116018;平移Y:0.2321387057750776;X当量:0.9999362752314485;Y当量:0.9999137710414359;旋转角度:-0.007802567089432133;倾斜角度:0.009394146563272067;RMS:3.6701441019161385E-13]误差：2.2737367544323206E-13,列误差：1.1368683772161603E-13.
+2026-03-30 11:08:46 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-30 11:08:47 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:08:59 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:08:59 --INFO -- 查找模板计时:236.1579
+2026-03-30 11:09:00 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:09:02 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-30 11:09:02 --INFO -- 查找模板计时:184.2062
+2026-03-30 11:09:03 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:09:05 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:09:05 --INFO -- Read D530 is 1
+2026-03-30 11:09:05 --INFO -- Reading D5000 is 478.25772
+2026-03-30 11:09:05 --INFO -- Reading D5002 is 1438.4578
+2026-03-30 11:09:05 --INFO -- Reading D5004 is 69.97598
+2026-03-30 11:09:05 --INFO -- Reading D5010 is 0
+2026-03-30 11:09:05 --INFO -- Reading D5006 is 179.26027
+2026-03-30 11:09:05 --INFO -- Reading D5008 is 0.008689143
+2026-03-30 11:09:06 --INFO -- Read D532 is 2
+2026-03-30 11:09:06 --INFO -- 查找模板计时:39.2508
+2026-03-30 11:09:06 --INFO -- 转机械坐标:像素坐标[1924.025,2000.648],拍照机械坐标[478.2577209472656,1438.457763671875],转换定位机械坐标[724.690657596082,1431.4169582193388]
+2026-03-30 11:09:06 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:09:16 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:09:16 --INFO -- Read D530 is 2
+2026-03-30 11:09:16 --INFO -- Reading D5000 is 486.89957
+2026-03-30 11:09:16 --INFO -- Reading D5002 is 2376.2844
+2026-03-30 11:09:16 --INFO -- Reading D5004 is 78.13868
+2026-03-30 11:09:16 --INFO -- Reading D5010 is 0
+2026-03-30 11:09:16 --INFO -- Reading D5006 is 179.2568
+2026-03-30 11:09:16 --INFO -- Reading D5008 is 0
+2026-03-30 11:09:16 --INFO -- Read D532 is 2
+2026-03-30 11:09:16 --INFO -- 查找模板计时:30.9339
+2026-03-30 11:09:16 --INFO -- 转机械坐标:像素坐标[1939.458,1917.842],拍照机械坐标[486.8995666503906,2376.284423828125],转换定位机械坐标[740.9845582071939,2367.9929215270554]
+2026-03-30 11:09:17 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:09:25 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-30 11:09:25 --INFO -- Read D530 is 3
+2026-03-30 11:09:25 --INFO -- Reading D5000 is -340.87164
+2026-03-30 11:09:25 --INFO -- Reading D5002 is 2386.5625
+2026-03-30 11:09:25 --INFO -- Reading D5004 is 81.137215
+2026-03-30 11:09:25 --INFO -- Reading D5010 is 0
+2026-03-30 11:09:25 --INFO -- Reading D5006 is 179.25981
+2026-03-30 11:09:25 --INFO -- Reading D5008 is 0
+2026-03-30 11:09:25 --INFO -- Read D532 is 2
+2026-03-30 11:09:25 --INFO -- 查找模板计时:40.5297
+2026-03-30 11:09:25 --INFO -- 转机械坐标:像素坐标[1941.352,1929.192],拍照机械坐标[-340.87164306640625,2386.5625],转换定位机械坐标[-87.8268255612573,2378.0739631184365]
+2026-03-30 11:09:26 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 11:09:33 --INFO -- 写三轴坐标事件触发:触发类型[变化],消息[D500变为5].
+2026-03-30 11:09:33 --INFO -- [Mark点间标定1]首坐标表[1:714.7334843835995,-317.6336983918343;2:725.8285565276506,619.8178226864809;3:-95.99445350563525,633.2824897865062],次坐标列表[1:724.690657596082,1431.4169582193388;2:740.9845582071939,2367.9929215270554;3:-87.8268255612573,2378.0739631184365].
+2026-03-30 11:09:33 --INFO -- [Mark点间标定1]标定信息：[平移X:5.544885327698101;平移Y:1745.8073677110244;X当量:1.0086010341332403;Y当量:0.9990323182448512;旋转角度:0.23297380308269722;倾斜角度:-0.5451960568748786;RMS:2.563211724477068E-13]误差：4.547473508864641E-13,列误差：1.8474111129762605E-13.
+2026-03-30 11:09:33 --INFO -- [Mark点间标定2]首坐标表[1:724.6951754689876,1431.4203105296144;2:741.0378815428787,2368.0038902159004;3:-87.80920293232708,2378.0052614010056],次坐标列表[1:724.690657596082,1431.4169582193388;2:740.9845582071939,2367.9929215270554;3:-87.8268255612573,2378.0739631184365].
+2026-03-30 11:09:33 --INFO -- [Mark点间标定2]标定信息：[平移X:0.10064588208636772;平移Y:0.07560086989846129;X当量:0.9999563123048619;Y当量:0.9999935478494058;旋转角度:-0.00551208515002329;倾斜角度:0.008454110589790398;RMS:3.012343672629384E-13]误差：4.547473508864641E-13,列误差：1.1368683772161603E-13.
+2026-03-30 11:09:34 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-30 13:03:17 --INFO -- [机器人]停止监控！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------

@@ -1,0 +1,372 @@
+
+----------------------application startup--------------------------
+2026-03-30 08:41:09 --INFO -- 停止项目成功！
+2026-03-30 08:41:12 --INFO -- 初始化成功!
+2026-03-30 08:46:21 --FATAL-- Line[113],Message[Type 'Common.Geometry.Point' in Assembly 'Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.],Location[   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(Type type)
+   at System.Runtime.Serialization.FormatterServices.<>c.<GetSerializableMembers>b__5_0(MemberHolder mh)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArrayMember(WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, Object data)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, BinaryFormatterWriter serWriter)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   at System.Windows.DataObject.SaveObjectToHandle(IntPtr handle, Object data, Boolean doNotReallocate)
+   at System.Windows.DataObject.GetDataIntoOleStructsByTypeMedimHGlobal(String format, Object data, STGMEDIUM& medium, Boolean doNotReallocate)
+   at System.Windows.DataObject.GetDataIntoOleStructs(FORMATETC& formatetc, STGMEDIUM& medium, Boolean doNotReallocate)
+   at System.Windows.DataObject.System.Runtime.InteropServices.ComTypes.IDataObject.GetData(FORMATETC& formatetc, STGMEDIUM& medium)
+   at System.Runtime.InteropServices.ComTypes.IDataObject.GetData(FORMATETC& format, STGMEDIUM& medium)
+   at System.Windows.DataObject.OleConverter.GetDataFromOleHGLOBAL(String format, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetDataFromBoundOleDataObject(String format, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetData(String format, Boolean autoConvert, DVASPECT aspect, Int32 index)
+   at System.Windows.DataObject.OleConverter.GetData(String format, Boolean autoConvert)
+   at System.Windows.Core.DataGrid.GetClipboardData() in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 1490
+   at System.Windows.Core.DataGrid.PasteOverride() in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 1411
+   at System.Windows.Core.DataGrid.Paste() in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 1384
+   at System.Windows.Core.DataGrid.<OnApplyTemplate>b__258_4(Object s, ExecutedRoutedEventArgs e) in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 1353
+   at System.Windows.Input.CommandBinding.OnExecuted(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.Input.CommandManager.FindCommandBinding(CommandBindingCollection commandBindings, Object sender, RoutedEventArgs e, ICommand command, Boolean execute)
+   at System.Windows.Input.CommandManager.FindCommandBinding(Object sender, RoutedEventArgs e, ICommand command, Boolean execute)
+   at System.Windows.Input.CommandManager.OnExecuted(Object sender, ExecutedRoutedEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.RoutedCommand.ExecuteImpl(Object parameter, IInputElement target, Boolean userInitiated)
+   at System.Windows.Input.CommandManager.TranslateInput(IInputElement targetElement, InputEventArgs inputEventArgs)
+   at System.Windows.UIElement.OnKeyDownThunk(Object sender, KeyEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndKeyboardInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawKeyboardActions actions, Int32 scanCode, Boolean isExtendedKey, Boolean isSystemKey, Int32 virtualKey)
+   at System.Windows.Interop.HwndKeyboardInputProvider.ProcessKeyAction(MSG& msg, Boolean& handled)
+   at System.Windows.Interop.HwndSource.CriticalTranslateAccelerator(MSG& msg, ModifierKeys modifiers)
+   at System.Windows.Interop.HwndSource.OnPreprocessMessage(Object param)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:46:54 --INFO -- 保存项目成功！
+2026-03-30 08:48:26 --INFO -- 保存项目成功！
+2026-03-30 08:51:38 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:52:31 --WARN -- 工具名[电芯坐标转换2]重复！
+2026-03-30 08:53:00 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:53:30 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:57:28 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:58:08 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:58:11 --INFO -- 保存项目成功！
+2026-03-30 08:58:21 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 08:58:50 --INFO -- 保存项目成功！
+2026-03-30 08:58:55 --INFO -- 保存项目成功！
+2026-03-30 08:59:03 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-30 08:59:10 --INFO -- 停止项目成功！
+2026-03-30 08:59:13 --INFO -- 初始化成功!
+2026-03-30 08:59:32 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 09:01:35 --FATAL-- Line[113],Message[The given key '电芯坐标转换2.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 09:24:06 --INFO -- 保存项目成功！
+2026-03-30 09:28:04 --FATAL-- Line[113],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 09:33:01 --FATAL-- Line[113],Message[The given key '电芯坐标转换1.结果坐标字典' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at System.RegexHelper.<>c__DisplayClass12_0.<ParseExpression>b__0(Match match) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 547
+   at System.Text.RegularExpressions.Regex.<>c.<Replace>b__99_0(ValueTuple`5& state, Match match)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String inputString, ReadOnlySpan`1 inputSpan, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.RunAllMatchesWithCallback[TState](String input, Int32 startat, TState& state, MatchCallback`1 callback, RegexRunnerMode mode, Boolean reuseMatchObject)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at System.RegexHelper.ParseExpression(String text, Dictionary`2 values) in F:\项目\Libraries\Class\UtilBase\类型\字符串类\正则表达式\RegexHelper.cs:line 545
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 95
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-03-30 09:33:09 --INFO -- 保存项目成功！
+2026-03-30 09:33:44 --INFO -- 保存项目成功！
+2026-03-30 09:33:47 --INFO -- 保存项目成功！
+2026-03-30 09:45:09 --INFO -- 保存项目成功！
+2026-03-30 09:45:12 --INFO -- 启动项目成功！
+2026-03-30 09:46:07 --INFO -- 保存项目成功！
+2026-03-30 09:58:10 --INFO -- 保存项目成功！
+2026-03-30 10:15:30 --INFO -- 保存项目成功！
+2026-03-30 10:15:39 --INFO -- 保存项目成功！
+2026-03-30 10:15:50 --INFO -- 保存项目成功！
+2026-03-30 10:20:09 --INFO -- 保存项目成功！
+2026-03-30 10:20:21 --INFO -- 保存项目成功！
+2026-03-30 10:20:28 --INFO -- 保存项目成功！
+2026-03-30 10:21:13 --INFO -- 保存项目成功！
+2026-03-30 11:04:48 --INFO -- 保存项目成功！
+2026-03-30 11:07:41 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-30 13:03:27 --INFO -- 停止项目成功！
+2026-03-30 13:03:30 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-30 13:04:45 --INFO -- 停止项目成功！
+2026-03-30 13:04:48 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------

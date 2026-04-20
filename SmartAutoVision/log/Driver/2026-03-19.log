@@ -1,0 +1,58 @@
+
+----------------------application startup--------------------------
+2026-03-19 09:35:25 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-19 09:35:25 --INFO -- 打开[测距仪]成功:.
+2026-03-19 09:35:25 --INFO -- 打开[机器人]成功:.
+2026-03-19 09:35:43 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 09:35:48 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 09:52:41 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 09:52:46 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 09:53:16 --INFO -- 测距事件触发:触发类型[变化],消息[D500变为9].
+2026-03-19 09:56:52 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 09:56:57 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:33:07 --INFO -- 图像采集Stop continuous operation
+2026-03-19 13:33:25 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 13:33:30 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:35:10 --INFO -- 测距事件触发:触发类型[变化],消息[D500变为9].
+2026-03-19 13:35:11 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:35:14 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-19 13:35:14 --INFO -- 查找模板计时:273.3521
+2026-03-19 13:35:14 --WARN -- 方向判断执行失败:返回参数:方向识别拍照.写入方向:0;方向识别拍照.写入结果:2;全局.电池角度:-90
+2026-03-19 13:35:15 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:46:10 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 13:46:15 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:48:22 --INFO -- 初始化PLC事件触发:触发类型[变化],消息[D500变为1].
+2026-03-19 13:48:27 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:48:51 --INFO -- 测距事件触发:触发类型[变化],消息[D500变为9].
+2026-03-19 13:48:52 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:48:56 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-19 13:48:56 --INFO -- 查找模板计时:236.7313
+2026-03-19 13:49:18 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:49:23 --INFO -- 方向识别拍照事件触发:触发类型[变化],消息[D500变为2].
+2026-03-19 13:49:23 --INFO -- 查找模板计时:272.9196
+2026-03-19 13:49:24 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:49:35 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-19 13:49:35 --INFO -- Read D530 is 1
+2026-03-19 13:49:35 --INFO -- 查找模板计时:42.5092
+2026-03-19 13:49:35 --INFO -- 转机械坐标:像素坐标[2035.593,1607.959],拍照机械坐标[478.26861572265625,1438.4603271484375],转换定位机械坐标[752.4559316091271,1423.1003826111928]
+2026-03-19 13:49:36 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:49:43 --INFO -- 测距事件触发:触发类型[变化],消息[D500变为9].
+2026-03-19 13:49:44 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 13:49:50 --INFO -- Mark点拍照事件触发:触发类型[变化],消息[D500变为3].
+2026-03-19 13:49:50 --INFO -- Read D530 is 2
+2026-03-19 13:49:50 --INFO -- 查找模板计时:41.1709
+2026-03-19 13:49:50 --INFO -- 转机械坐标:像素坐标[1993.194,1533.454],拍照机械坐标[486.99517822265625,2376.3759765625],转换定位机械坐标[767.9530853960358,2365.0127630900597]
+2026-03-19 13:49:51 --INFO -- 复位事件触发:触发类型[变化],消息[D500变为0].
+2026-03-19 17:20:55 --ERROR-- 机器人异常，重连设备中。。。:Line[0],Message[Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.],Location[   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Modbus.IO.TcpClientAdapter.Read(Byte[] buffer, Int32 offset, Int32 size) in C:\项目\类库\ReferenceLib\NModbus4\IO\TcpClientAdapter.cs:line 48
+   at Modbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 36
+   at Modbus.IO.ModbusIpTransport.ReadResponse[T]() in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 140
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusTransport.cs:line 135
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data) in C:\项目\类库\ReferenceLib\NModbus4\Device\ModbusMaster.cs:line 256
+   at Driver.PLC.Modbus.PlcModbus.WriteEntity[T](String name, T[] ts)
+   at Device.PlcPortBase.Write[T](String name, T[] ts) in F:\项目\Libraries\Class\Device\007 Plc\PlcPortBase.cs:line 352
+   at Driver.PLC.Modbus.PlcModbus.MonitoringIo()]
+2026-03-19 17:21:06 --ERROR-- 打开机器人异常:Line[0],Message[TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通],Location[   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpClient.cs:line 124
+   at Driver.PLC.Modbus.PlcModbus.Open(String& msg)]
+
+ ----------------------application shutdown--------------------------

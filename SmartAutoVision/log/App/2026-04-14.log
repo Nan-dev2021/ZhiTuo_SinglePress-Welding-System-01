@@ -1,0 +1,122 @@
+
+----------------------application startup--------------------------
+2026-04-14 10:11:16 --INFO -- 停止项目成功！
+2026-04-14 10:11:16 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 11:42:38 --INFO -- 停止项目成功！
+2026-04-14 11:42:38 --INFO -- 初始化成功!
+2026-04-14 11:43:43 --INFO -- 停止项目成功！
+2026-04-14 11:43:43 --INFO -- 停止项目成功！
+2026-04-14 11:43:45 --INFO -- 停止项目成功！
+2026-04-14 11:43:48 --INFO -- 初始化成功!
+2026-04-14 11:43:48 --INFO -- 保存系统配置成功！
+2026-04-14 11:44:10 --INFO -- 保存项目成功！
+2026-04-14 13:29:01 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 13:34:18 --INFO -- 停止项目成功！
+2026-04-14 13:34:21 --INFO -- 初始化成功!
+2026-04-14 13:34:53 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-14 13:35:53 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-14 13:48:10 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-14 13:48:10 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-14 15:16:49 --INFO -- 保存项目成功！
+2026-04-14 15:16:54 --INFO -- 保存项目成功！
+2026-04-14 15:16:54 --INFO -- 保存项目成功！
+2026-04-14 15:31:05 --INFO -- 停止项目成功！
+2026-04-14 15:32:02 --INFO -- 停止项目成功！
+2026-04-14 15:44:19 --INFO -- 停止项目成功！
+2026-04-14 15:44:19 --INFO -- 停止项目成功！
+2026-04-14 15:44:20 --INFO -- 停止项目成功！
+2026-04-14 15:44:22 --INFO -- 初始化成功!
+2026-04-14 15:44:23 --INFO -- 保存系统配置成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 15:54:31 --INFO -- 停止项目成功！
+2026-04-14 15:54:34 --INFO -- 初始化成功!
+2026-04-14 15:55:02 --INFO -- 停止项目成功！
+2026-04-14 15:55:03 --INFO -- 停止项目成功！
+2026-04-14 15:55:03 --INFO -- 停止项目成功！
+2026-04-14 15:55:06 --INFO -- 初始化成功!
+2026-04-14 15:55:06 --INFO -- 保存系统配置成功！
+2026-04-14 15:56:44 --INFO -- 停止项目成功！
+2026-04-14 15:56:44 --INFO -- 停止项目成功！
+2026-04-14 15:56:45 --INFO -- 停止项目成功！
+2026-04-14 15:56:47 --INFO -- 初始化成功!
+2026-04-14 15:56:47 --INFO -- 保存系统配置成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 15:58:08 --INFO -- 停止项目成功！
+2026-04-14 15:58:08 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 15:58:08 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 15:58:08 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 15:58:08 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 16:01:04 --INFO -- 停止项目成功！
+2026-04-14 16:01:04 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 16:03:02 --INFO -- 停止项目成功！
+2026-04-14 16:03:02 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:03:02 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:03:02 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:03:02 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 16:05:15 --INFO -- 停止项目成功！
+2026-04-14 16:05:15 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:05:15 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:05:15 --ERROR-- Line[397],Message[Exception has been thrown by the target of an invocation.],Location[   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at Core.TaskFlow.IniTool(ToolBase tool, IniType iniType, Boolean isLoadIni) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 653
+   at Core.TaskFlow.IniTask(IniType iniType) in F:\项目\SmartAutoVision\Core\Task\TaskFlow.cs:line 543]
+2026-04-14 16:05:15 --INFO -- 初始化成功!
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-14 17:21:14 --INFO -- 停止项目成功！
+2026-04-14 17:21:17 --INFO -- 初始化成功!
+2026-04-14 17:26:10 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------

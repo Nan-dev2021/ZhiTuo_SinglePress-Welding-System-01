@@ -1,0 +1,26 @@
+
+----------------------application startup--------------------------
+2026-03-13 14:34:32 --INFO -- 停止项目成功！
+2026-03-13 14:34:47 --INFO -- 初始化成功!
+2026-03-13 14:35:08 --DEBUG-- 清理内存[1530.4MB]耗时146.3459ms,-1116326359
+2026-03-13 14:44:48 --INFO -- 启动项目成功！
+2026-03-13 14:44:51 --ERROR-- 打开设备失败:测距仪打开失败,提示:System.Exception: TcpClientPort Open failed. Details:由于目标计算机积极拒绝，无法连接。 [::ffff:192.168.1.111]:8222
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-03-13 14:44:55 --INFO -- 停止项目成功！
+2026-03-13 14:45:10 --INFO -- 启动项目成功！
+2026-03-13 14:48:53 --INFO -- 保存项目成功！
+2026-03-13 14:48:55 --INFO -- 停止项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-13 15:44:14 --INFO -- 停止项目成功！
+2026-03-13 15:44:29 --INFO -- 初始化成功!
+2026-03-13 15:44:49 --INFO -- 启动项目成功！
+2026-03-13 15:45:56 --INFO -- 保存项目成功！
+2026-03-13 16:17:03 --INFO -- 停止项目成功！
+2026-03-13 16:17:04 --INFO -- 停止项目成功！
+2026-03-13 16:17:08 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------

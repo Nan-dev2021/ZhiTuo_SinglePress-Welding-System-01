@@ -1,0 +1,10 @@
+
+----------------------application startup--------------------------
+2026-04-18 15:28:05 --INFO -- 停止项目成功！
+2026-04-18 15:28:08 --INFO -- 初始化成功!
+2026-04-18 15:44:48 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-18 16:33:52 --INFO -- 保存项目成功！
+2026-04-18 16:33:53 --INFO -- 保存项目成功！
+2026-04-18 16:33:57 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------

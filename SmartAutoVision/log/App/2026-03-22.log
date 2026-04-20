@@ -1,0 +1,53 @@
+
+----------------------application startup--------------------------
+2026-03-22 08:36:53 --INFO -- 停止项目成功！
+2026-03-22 08:36:56 --INFO -- 初始化成功!
+2026-03-22 08:37:32 --INFO -- 停止项目成功！
+2026-03-22 08:37:35 --INFO -- 启动项目成功！
+2026-03-22 10:22:47 --INFO -- 保存项目成功！
+2026-03-22 13:22:27 --INFO -- 保存项目成功！
+2026-03-22 14:29:09 --INFO -- 保存项目成功！
+2026-03-22 14:29:29 --ERROR-- 未能找到[泡棉坐标补偿]的值！
+2026-03-22 14:29:29 --ERROR-- 未能找到[坐标补偿]的值！
+2026-03-22 14:29:29 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:29:31 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:31:26 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:31:55 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:32:11 --ERROR-- 未能找到[电池中心到边]的值！
+2026-03-22 14:32:20 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:32:46 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 14:38:46 --INFO -- 保存项目成功！
+2026-03-22 14:56:41 --INFO -- 保存项目成功！
+2026-03-22 14:57:57 --INFO -- 保存项目成功！
+2026-03-22 15:09:26 --INFO -- 保存项目成功！
+2026-03-22 15:10:20 --ERROR-- 未能找到[垛位]的值！
+2026-03-22 15:10:20 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 15:10:40 --ERROR-- Line[0],Message[Object reference not set to an instance of an object.],Location[   at Plugin.ScriptCSharp.ToolScriptCSharp.GetAllInParameter()
+   at Core.TaskFlowView.trvTask_PreviewMouseDoubleClick(Object sender, MouseButtonEventArgs e) in F:\项目\SmartAutoVision\Core\Task\TaskFlowView.xaml.cs:line 133]
+2026-03-22 15:11:07 --INFO -- 保存项目成功！
+2026-03-22 15:11:48 --INFO -- 保存项目成功！
+2026-03-22 15:12:16 --INFO -- 保存项目成功！
+2026-03-22 15:13:20 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+2026-03-22 15:20:53 --INFO -- 保存项目成功！
+2026-03-22 15:23:37 --INFO -- 保存项目成功！
+2026-03-22 15:23:59 --INFO -- 保存项目成功！
+2026-03-22 15:24:34 --INFO -- 保存项目成功！
+2026-03-22 15:46:43 --INFO -- 保存项目成功！
+2026-03-22 15:47:59 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+2026-03-22 15:50:18 --INFO -- 保存项目成功！
+2026-03-22 15:50:28 --INFO -- 保存项目成功！
+2026-03-22 15:51:25 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+2026-03-22 15:54:53 --INFO -- 保存项目成功！
+2026-03-22 15:56:01 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+2026-03-22 17:08:24 --INFO -- 保存项目成功！
+2026-03-22 17:09:41 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+2026-03-22 17:13:03 --ERROR-- Name[启动器.事件接收消息],Type[System.String],不存在列表中，请联系软件项目工程师！
+
+ ----------------------application shutdown--------------------------

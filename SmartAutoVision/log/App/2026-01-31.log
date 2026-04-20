@@ -1,0 +1,65 @@
+
+----------------------application startup--------------------------
+2026-01-31 09:46:57 --INFO -- 停止项目成功！
+2026-01-31 09:47:01 --INFO -- 初始化成功!
+2026-01-31 09:47:15 --WARN -- 写三轴坐标校验工具异常,提示：写三轴坐标工具[电芯坐标转换]属性[输入坐标]The link value is empty！！
+2026-01-31 09:47:16 --WARN -- 写三轴坐标初始化失败！
+2026-01-31 09:47:16 --INFO -- 停止项目成功！
+2026-01-31 09:47:26 --INFO -- 停止项目成功！
+2026-01-31 10:28:51 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-01-31 10:50:12 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-01-31 11:28:04 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-01-31 13:34:14 --INFO -- 停止项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-01-31 13:34:22 --INFO -- 停止项目成功！
+2026-01-31 13:34:27 --INFO -- 初始化成功!
+2026-01-31 13:36:35 --INFO -- 保存项目成功！
+2026-01-31 13:37:38 --INFO -- 保存项目成功！
+2026-01-31 13:38:27 --INFO -- 保存项目成功！
+2026-01-31 13:39:03 --WARN -- 写三轴坐标校验工具异常,提示：写三轴坐标工具[电芯坐标转换]属性[输入坐标]The link value is empty！！
+2026-01-31 13:39:04 --WARN -- 写三轴坐标初始化失败！
+2026-01-31 13:39:04 --INFO -- 停止项目成功！
+2026-01-31 13:39:06 --WARN -- 写三轴坐标校验工具异常,提示：写三轴坐标工具[电芯坐标转换]属性[输入坐标]The link value is empty！！
+2026-01-31 13:39:06 --WARN -- 写三轴坐标初始化失败！
+2026-01-31 13:39:06 --INFO -- 停止项目成功！
+2026-01-31 13:39:28 --INFO -- 保存项目成功！
+2026-01-31 13:39:30 --INFO -- 启动项目成功！
+2026-01-31 13:39:30 --ERROR-- 打开设备失败:No device, please select
+2026-01-31 13:39:33 --INFO -- 停止项目成功！
+2026-01-31 13:42:11 --INFO -- 保存项目成功！
+2026-01-31 13:42:36 --INFO -- 保存项目成功！
+2026-01-31 13:43:53 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (A generic error occurred in GDI+.)],Location[]
+2026-01-31 13:45:33 --INFO -- 保存项目成功！
+2026-01-31 13:45:35 --INFO -- 保存项目成功！
+2026-01-31 13:48:24 --INFO -- 保存项目成功！
+2026-01-31 13:51:20 --INFO -- 保存项目成功！
+2026-01-31 13:51:30 --INFO -- 启动项目成功！
+2026-01-31 14:13:54 --INFO -- 停止项目成功！
+2026-01-31 14:14:56 --INFO -- 保存项目成功！
+2026-01-31 14:20:42 --INFO -- 保存项目成功！
+2026-01-31 14:22:11 --INFO -- 保存项目成功！
+2026-01-31 14:22:34 --INFO -- 启动项目成功！
+2026-01-31 14:29:38 --INFO -- 保存项目成功！
+2026-01-31 14:30:11 --INFO -- 保存项目成功！
+2026-01-31 14:51:06 --INFO -- 保存项目成功！
+2026-01-31 14:51:49 --INFO -- 保存项目成功！
+2026-01-31 14:52:15 --DEBUG-- 清理内存[1796.6MB]耗时195.7869ms,0
+2026-01-31 14:55:01 --DEBUG-- 清理内存[1769.6MB]耗时206.3294ms,18363875
+2026-01-31 14:56:22 --INFO -- 保存项目成功！
+2026-01-31 14:56:27 --INFO -- 保存项目成功！
+2026-01-31 15:39:51 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-01-31 15:47:25 --INFO -- 停止项目成功！
+2026-01-31 15:47:38 --INFO -- 初始化成功!
+2026-01-31 15:48:14 --INFO -- 保存项目成功！
+2026-01-31 15:49:16 --INFO -- 保存项目成功！
+2026-01-31 17:18:20 --INFO -- 保存项目成功！
+2026-01-31 19:39:27 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------

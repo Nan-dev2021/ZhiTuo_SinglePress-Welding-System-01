@@ -1,0 +1,79 @@
+
+----------------------application startup--------------------------
+2026-03-11 09:55:16 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-11 09:55:16 --INFO -- 打开[机器人]成功:.
+2026-03-11 11:25:15 --INFO -- [机器人]停止监控！
+2026-03-11 11:25:15 --INFO -- [机器人]停止监控！
+2026-03-11 13:35:20 --ERROR-- Stop Grabbing Fail!Tip:-2147483130
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-03-11 13:40:20 --INFO -- 打开[机器人]成功:No device, please select.
+2026-03-11 13:40:22 --INFO -- [机器人]停止监控！
+2026-03-11 13:40:30 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-03-11 13:42:28 --INFO -- 打开[机器人]成功:.
+2026-03-11 14:17:29 --INFO -- [机器人]停止监控！
+2026-03-11 16:33:35 --INFO -- 图像采集Stop continuous operation
+2026-03-11 16:55:03 --INFO -- 图像采集Stop continuous operation
+2026-03-11 16:55:27 --INFO -- 打开[机器人]成功:.
+2026-03-11 16:56:43 --INFO -- 查找模板计时:56.1465
+2026-03-11 16:57:16 --INFO -- 查找模板计时:51.353
+2026-03-11 16:58:46 --INFO -- 查找模板计时:51.4068
+2026-03-11 16:58:48 --INFO -- 查找模板计时:50.8524
+2026-03-11 17:03:12 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:03:23 --INFO -- 查找模板计时:49.962
+2026-03-11 17:04:17 --INFO -- 查找模板计时:50.8118
+2026-03-11 17:04:24 --INFO -- 查找模板计时:64.4684
+2026-03-11 17:07:44 --INFO -- 查找模板计时:49.826
+2026-03-11 17:09:51 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:09:59 --INFO -- 查找模板计时:64.7619
+2026-03-11 17:10:52 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:11:23 --INFO -- 查找模板计时:52.2244
+2026-03-11 17:12:25 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:12:32 --INFO -- 查找模板计时:59.9069
+2026-03-11 17:14:03 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:14:08 --INFO -- 查找模板计时:56.0818
+2026-03-11 17:15:48 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:15:55 --INFO -- 查找模板计时:56.1085
+2026-03-11 17:17:36 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:17:42 --INFO -- 查找模板计时:61.5441
+2026-03-11 17:19:38 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:19:44 --INFO -- 查找模板计时:54.8274
+2026-03-11 17:21:08 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:22:08 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:22:15 --INFO -- 查找模板计时:54.8324
+2026-03-11 17:23:48 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:23:53 --INFO -- 查找模板计时:47.778
+2026-03-11 17:24:50 --INFO -- 查找模板计时:49.3458
+2026-03-11 17:25:42 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:25:46 --INFO -- 查找模板计时:54.2266
+2026-03-11 17:26:55 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:27:04 --INFO -- 查找模板计时:49.1289
+2026-03-11 17:28:22 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:28:29 --INFO -- 查找模板计时:73.6869
+2026-03-11 17:28:32 --INFO -- 查找模板计时:58.9397
+2026-03-11 17:29:35 --INFO -- 图像采集Stop continuous operation
+2026-03-11 17:29:39 --INFO -- 查找模板计时:62.6055
+2026-03-11 17:31:22 --INFO -- 行误差：0.2397634215162725,列误差：0.07129528094117177.
+2026-03-11 17:36:21 --ERROR-- 机器人异常，重连设备中。。。:Line[397],Message[Unable to read data from the transport connection: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.],Location[   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Modbus.IO.TcpClientAdapter.Read(Byte[] buffer, Int32 offset, Int32 size) in C:\项目\类库\ReferenceLib\NModbus4\IO\TcpClientAdapter.cs:line 48
+   at Modbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 36
+   at Modbus.IO.ModbusIpTransport.ReadResponse[T]() in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusIpTransport.cs:line 140
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\项目\类库\ReferenceLib\NModbus4\IO\ModbusTransport.cs:line 135
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data) in C:\项目\类库\ReferenceLib\NModbus4\Device\ModbusMaster.cs:line 256
+   at Driver.PLC.Modbus.PlcModbus.WriteEntity[T](String name, T[] ts)
+   at Device.PlcPortBase.Write[T](String name, T[] ts) in F:\项目\Libraries\Class\Device\010 Mes\MesHttpBase.cs:line 20
+   at Driver.PLC.Modbus.PlcModbus.MonitoringIo()]
+2026-03-11 17:36:32 --ERROR-- 打开机器人异常:Line[397],Message[TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通],Location[   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Driver.PLC.Modbus.PlcModbus.Open(String& msg)]
+
+ ----------------------application shutdown--------------------------
