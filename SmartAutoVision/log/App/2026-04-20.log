@@ -1,0 +1,775 @@
+
+----------------------application startup--------------------------
+2026-04-20 08:00:10 --INFO -- 停止项目成功！
+2026-04-20 08:00:11 --INFO -- 初始化成功!
+2026-04-20 08:01:49 --INFO -- 停止项目成功！
+2026-04-20 08:01:50 --INFO -- 停止项目成功！
+2026-04-20 08:01:50 --INFO -- 停止项目成功！
+2026-04-20 08:01:51 --INFO -- 初始化成功!
+2026-04-20 08:01:51 --INFO -- 保存系统配置成功！
+2026-04-20 08:02:16 --INFO -- 保存项目成功！
+2026-04-20 08:20:49 --INFO -- 保存项目成功！
+2026-04-20 09:13:53 --INFO -- 保存项目成功！
+2026-04-20 09:14:18 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 09:14:18 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 09:14:18 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 09:14:18 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 09:14:18 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 09:14:18 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 09:14:20 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 09:14:20 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:21 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:23 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:23 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 09:14:55 --INFO -- 保存项目成功！
+2026-04-20 10:00:29 --FATAL-- Line[113],Message[An error occurred trying to start process 'osk.exe' with working directory 'D:\01智拓\合肥和鼎\焊接双压机\SmartAutoVision'. 请求的操作需要提升。],Location[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at SmartAutoVision.MainWindow.zqcWF4NqT(Object  , RoutedEventArgs  ) in F:\项目\SmartAutoVision\SmartAutoVision\MainWindow.xaml.cs:line 624
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.Controls.MenuItem.InvokeClickAfterRender(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 11:52:58 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 11:52:58 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 11:52:58 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 11:52:58 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 11:52:58 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 11:52:58 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 11:53:02 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 11:53:02 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:03 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:05 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 11:53:05 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:24:53 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:25:48 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:25:48 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:26:09 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:26:09 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:26:09 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:26:09 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:26:12 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:26:12 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:26:13 --ERROR-- 未能找到[清洗焊接坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:39:33 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:39:54 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:39:54 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[清洗箱体坐标表]的值！
+2026-04-20 13:45:01 --ERROR-- 未能找到[箱体坐标表]的值！
+2026-04-20 15:06:03 --DEBUG-- 清理内存[1500.3MB]耗时119.3124ms,638187
+2026-04-20 15:28:00 --INFO -- 保存项目成功！
+2026-04-20 16:08:02 --FATAL-- Line[113],Message[Object reference not set to an instance of an object.],Location[   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:08:39 --FATAL-- Line[113],Message[Object reference not set to an instance of an object.],Location[   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:22:16 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:22:20 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:22:45 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:23:21 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:23:52 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:24:03 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:24:03 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:24:04 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:24:05 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:24:05 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:21 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:42 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:42 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:25:44 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:43 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:46 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:47 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:26:47 --FATAL-- Line[113],Message[The given key '相机标定.读X' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:27:17 --FATAL-- Line[113],Message[missing EndOfFile at '67978' at line 1:9],Location[   at NCalc.Expression.Evaluate()
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:27:18 --FATAL-- Line[113],Message[missing EndOfFile at '67978' at line 1:9],Location[   at NCalc.Expression.Evaluate()
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:27:18 --FATAL-- Line[113],Message[missing EndOfFile at '67978' at line 1:9],Location[   at NCalc.Expression.Evaluate()
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:37:03 --FATAL-- Line[113],Message[Object reference not set to an instance of an object.],Location[   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 16:45:22 --ERROR-- 未能找到[自动相机标定.读X]的值！
+2026-04-20 16:45:22 --ERROR-- 未能找到[自动相机标定.读Y]的值！
+2026-04-20 16:45:22 --ERROR-- 未能找到[自动相机标定.读Z]的值！
+2026-04-20 16:45:24 --ERROR-- 未能找到[自动相机标定.读X]的值！
+2026-04-20 16:45:24 --ERROR-- 未能找到[自动相机标定.读Y]的值！
+2026-04-20 16:45:24 --ERROR-- 未能找到[自动相机标定.读Z]的值！
+2026-04-20 16:45:25 --ERROR-- 未能找到[自动相机标定.读X]的值！
+2026-04-20 16:45:25 --ERROR-- 未能找到[自动相机标定.读Y]的值！
+2026-04-20 16:45:25 --ERROR-- 未能找到[自动相机标定.读Z]的值！
+2026-04-20 17:19:40 --DEBUG-- 清理内存[1501.6MB]耗时123.9229ms,0
+2026-04-20 17:22:17 --WARN -- 工具名[读取机械位置]重复！
+2026-04-20 17:23:32 --FATAL-- Line[113],Message[The given key '[写自动采集相机标定点坐标.采集起点X（mm）' was not present in the dictionary.],Location[   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.AssignmentInfo.<.ctor>b__0_0()
+   at System.Windows.Core.DelegateCommand.Execute(Object parameter) in F:\项目\Libraries\ViewClass\System.Windows.Core\Commands\DelegateCommand.cs:line 103
+   at MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource(ICommandSource commandSource, Boolean userInitiated)
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 17:25:34 --INFO -- 保存项目成功！
+2026-04-20 17:25:39 --INFO -- 保存项目成功！
+2026-04-20 18:40:08 --WARN -- 工具名[采集路径写入]重复！
+2026-04-20 18:46:34 --FATAL-- Line[113],Message[Failed to compare two elements in the array.],Location[   at System.Array.SorterGenericArray.IntrospectiveSort(Int32 left, Int32 length)
+   at System.Array.Sort(Array keys, Array items, Int32 index, Int32 length, IComparer comparer)
+   at MS.Internal.Data.SortFieldComparer.SortHelper(ArrayList al, IComparer comparer)
+   at System.Windows.Data.ListCollectionView.PrepareLocalArray()
+   at System.Windows.Data.ListCollectionView.RefreshOverride()
+   at System.Windows.Data.ListCollectionView.SortDescriptionsChanged(Object sender, NotifyCollectionChangedEventArgs e)
+   at System.ComponentModel.SortDescriptionCollection.InsertItem(Int32 index, SortDescription item)
+   at System.Collections.ObjectModel.Collection`1.Add(T item)
+   at System.Windows.Core.DataGrid.zUSBdEDEf1() in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 4066
+   at System.Windows.Core.DataGrid.V17ByN3ll5(Boolean  ) in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 4183
+   at System.Windows.Core.DataGrid.wNpB1qyMsW(Object  , MouseButtonEventArgs  ) in F:\项目\Libraries\ViewClass\System.Windows.Core\DataGrid\DataGrid.cs:line 3684
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)]
+2026-04-20 18:51:48 --INFO -- 保存项目成功！
+2026-04-20 18:59:59 --INFO -- 保存项目成功！
+2026-04-20 19:05:13 --INFO -- 保存项目成功！
+2026-04-20 19:07:26 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-20 19:09:47 --INFO -- 停止项目成功！
+2026-04-20 19:09:49 --INFO -- 初始化成功!
+2026-04-20 19:12:27 --INFO -- 保存项目成功！
+2026-04-20 19:12:35 --INFO -- 启动项目成功！
+2026-04-20 19:12:46 --ERROR-- 打开设备失败:No device, please selectPLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 19:13:20 --INFO -- 停止项目成功！
+2026-04-20 19:13:22 --INFO -- 启动项目成功！
+2026-04-20 19:13:33 --ERROR-- 打开设备失败:No device, please selectPLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 19:14:57 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------

@@ -1,70 +1,272 @@
 
 ----------------------application startup--------------------------
-2026-04-18 15:28:25 --INFO -- 打开[相机1(DA0014462)]成功. 
-2026-04-18 15:37:35 --INFO -- 图像采集Stop continuous operation
-2026-04-18 15:44:44 --INFO -- 打开[相机1(DA0014462)]成功. 
-2026-04-18 15:44:55 --INFO -- 图像采集Stop continuous operation
-2026-04-18 15:45:00 --INFO -- 查找模板计时:18.1793
-2026-04-18 15:45:19 --INFO -- 查找模板计时:13.7441
-2026-04-18 15:45:36 --INFO -- 查找模板计时:17.0963
-2026-04-18 15:45:42 --INFO -- 查找模板计时:18.8633
-2026-04-18 15:47:56 --INFO -- 打开[PLC]成功:.
-2026-04-18 15:47:56 --DEBUG-- 读双字D820值:79801
-2026-04-18 15:47:56 --DEBUG-- 读双字D822值:30723
-2026-04-18 15:47:56 --DEBUG-- 读双字D824值:126196
-2026-04-18 15:51:52 --DEBUG-- 读双字D820值:79800
-2026-04-18 15:51:52 --DEBUG-- 读双字D822值:30723
-2026-04-18 15:51:52 --DEBUG-- 读双字D824值:126196
-2026-04-18 15:52:28 --INFO -- 查找模板计时:21.6554
-2026-04-18 15:52:30 --INFO -- 查找模板计时:11.456
-2026-04-18 15:54:09 --INFO -- 查找模板计时:20.2513
-2026-04-18 15:54:13 --INFO -- 查找模板计时:12.677
-2026-04-18 15:54:29 --DEBUG-- 读双字D820值:81400
-2026-04-18 15:54:29 --DEBUG-- 读双字D822值:30723
-2026-04-18 15:54:29 --DEBUG-- 读双字D824值:126196
-2026-04-18 15:56:01 --INFO -- 查找模板计时:20.1014
-2026-04-18 15:56:10 --INFO -- 查找模板计时:11.4571
-2026-04-18 15:57:06 --DEBUG-- 读双字D820值:81400
-2026-04-18 15:57:06 --DEBUG-- 读双字D822值:32723
-2026-04-18 15:57:06 --DEBUG-- 读双字D824值:126196
-2026-04-18 15:58:03 --INFO -- 查找模板计时:19.3005
-2026-04-18 15:58:06 --INFO -- 查找模板计时:12.2488
-2026-04-18 15:58:50 --DEBUG-- 读双字D820值:79800
-2026-04-18 15:58:50 --DEBUG-- 读双字D822值:32723
-2026-04-18 15:58:50 --DEBUG-- 读双字D824值:126196
-2026-04-18 15:59:26 --INFO -- 查找模板计时:20.035
-2026-04-18 15:59:27 --INFO -- 查找模板计时:12.0771
-2026-04-18 15:59:56 --DEBUG-- 读双字D820值:78200
-2026-04-18 15:59:56 --DEBUG-- 读双字D822值:32723
-2026-04-18 15:59:56 --DEBUG-- 读双字D824值:126196
-2026-04-18 16:00:43 --INFO -- 查找模板计时:20.4713
-2026-04-18 16:00:46 --INFO -- 查找模板计时:12.5874
-2026-04-18 16:01:07 --DEBUG-- 读双字D820值:78200
-2026-04-18 16:01:07 --DEBUG-- 读双字D822值:30723
-2026-04-18 16:01:07 --DEBUG-- 读双字D824值:126196
-2026-04-18 16:01:47 --INFO -- 查找模板计时:21.0709
-2026-04-18 16:01:52 --INFO -- 查找模板计时:13.1306
-2026-04-18 16:03:20 --INFO -- 查找模板计时:17.3921
-2026-04-18 16:03:29 --DEBUG-- 读双字D820值:78200
-2026-04-18 16:03:29 --DEBUG-- 读双字D822值:28723
-2026-04-18 16:03:29 --DEBUG-- 读双字D824值:126196
-2026-04-18 16:04:12 --INFO -- 查找模板计时:18.8409
-2026-04-18 16:04:15 --INFO -- 查找模板计时:10.7166
-2026-04-18 16:05:17 --INFO -- 查找模板计时:20.3156
-2026-04-18 16:05:20 --INFO -- 查找模板计时:12.6628
-2026-04-18 16:05:47 --DEBUG-- 读双字D820值:81400
-2026-04-18 16:05:47 --DEBUG-- 读双字D822值:28723
-2026-04-18 16:05:47 --DEBUG-- 读双字D824值:126196
-2026-04-18 16:06:32 --INFO -- 行误差：0.020004218707981636,列误差：0.033294939158167836.
-2026-04-18 16:16:05 --INFO -- 行误差：0.020004218707981636,列误差：0.033294939158167836.
-2026-04-18 16:28:23 --INFO -- 图像采集Stop continuous operation
-2026-04-18 16:31:38 --DEBUG-- 读双字D820值:97503
-2026-04-18 16:31:38 --DEBUG-- 读双字D822值:27132
-2026-04-18 16:31:38 --DEBUG-- 读双字D824值:133297
-2026-04-18 16:32:40 --INFO -- 行误差：0.020004218707981636,列误差：0.033294939158167836.
-2026-04-18 16:32:46 --INFO -- 行误差：0.020004218707981636,列误差：0.033294939158167836.
-2026-04-18 16:32:48 --INFO -- 转机械坐标:像素坐标[766.54,1806.506],拍照机械坐标[967.75,223.83],转换定位机械坐标[1218.933523928701,158.06636024348052]
-2026-04-18 16:33:27 --INFO -- 转机械坐标:像素坐标[2054.475,499.321],拍照机械坐标[1017.5,287.23],转换定位机械坐标[1218.7785273684199,271.33923786880126]
-2026-04-18 16:33:50 --INFO -- 转机械坐标:像素坐标[2054.475,499.321],拍照机械坐标[1017.5,287.23],转换定位机械坐标[1218.7785273684199,271.33923786880126]
+2026-04-18 11:06:32 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:32 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:33 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:33 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:33 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:34 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:34 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:34 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:34 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:35 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:36 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:37 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:38 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:06:39 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:06:39 --INFO -- 图像采集Stop continuous operation
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-18 11:09:52 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:56 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:56 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:57 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:57 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:57 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:58 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:58 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:58 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:58 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:59 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:59 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:09:59 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:10:00 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:10:00 --ERROR-- Line[45],Message[Object reference not set to an instance of an object.],Location[   at Driver.Camera.CameraHikVision.Trig()]
+2026-04-18 11:10:00 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:10:10 --INFO -- 打开[相机1(DA0014462)]成功. 
+2026-04-18 11:15:30 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:15:42 --INFO -- 查找模板计时:19.0494
+2026-04-18 11:15:59 --INFO -- 查找模板计时:21.8392
+2026-04-18 11:17:23 --INFO -- 查找模板计时:10.236
+2026-04-18 11:17:32 --INFO -- 查找模板计时:18.7487
+2026-04-18 11:17:38 --INFO -- 查找模板计时:13.6927
+2026-04-18 11:17:39 --INFO -- 查找模板计时:13.2182
+2026-04-18 11:18:18 --INFO -- 查找模板计时:16.3184
+2026-04-18 11:18:23 --INFO -- 查找模板计时:10.9942
+2026-04-18 11:18:32 --INFO -- 查找模板计时:13.6579
+2026-04-18 11:18:38 --INFO -- 查找模板计时:23.4534
+2026-04-18 11:18:41 --INFO -- 查找模板计时:11.0357
+2026-04-18 11:26:07 --INFO -- 查找模板计时:11.3228
+2026-04-18 11:26:37 --INFO -- 打开[PLC]成功:.
+2026-04-18 11:26:37 --DEBUG-- 读双字D820值:67455
+2026-04-18 11:26:37 --DEBUG-- 读双字D822值:56157
+2026-04-18 11:26:37 --DEBUG-- 读双字D824值:101243
+2026-04-18 11:26:47 --DEBUG-- 读双字D820值:67455
+2026-04-18 11:26:47 --DEBUG-- 读双字D822值:56157
+2026-04-18 11:26:47 --DEBUG-- 读双字D824值:101243
+2026-04-18 11:33:28 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:34:50 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:35:51 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:35:54 --INFO -- 查找模板计时:21.5429
+2026-04-18 11:38:38 --INFO -- 图像采集Stop continuous operation
+2026-04-18 11:38:40 --INFO -- 查找模板计时:32.011
+2026-04-18 11:39:01 --INFO -- 查找模板计时:15.0706
+2026-04-18 11:39:05 --INFO -- 查找模板计时:19.51
+2026-04-18 11:39:33 --DEBUG-- 读双字D820值:67464
+2026-04-18 11:39:33 --DEBUG-- 读双字D822值:56164
+2026-04-18 11:39:33 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:40:34 --DEBUG-- 读双字D820值:67464
+2026-04-18 11:40:34 --DEBUG-- 读双字D822值:56164
+2026-04-18 11:40:34 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:44:21 --INFO -- 查找模板计时:21.2614
+2026-04-18 11:44:24 --INFO -- 查找模板计时:13.6364
+2026-04-18 11:44:45 --INFO -- 查找模板计时:22.1105
+2026-04-18 11:44:47 --DEBUG-- 读双字D820值:65064
+2026-04-18 11:44:47 --DEBUG-- 读双字D822值:56164
+2026-04-18 11:44:47 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:45:37 --INFO -- 查找模板计时:14.5224
+2026-04-18 11:45:58 --INFO -- 查找模板计时:11.9434
+2026-04-18 11:46:00 --INFO -- 查找模板计时:14.9278
+2026-04-18 11:46:03 --INFO -- 查找模板计时:18.8606
+2026-04-18 11:46:07 --DEBUG-- 读双字D820值:65064
+2026-04-18 11:46:07 --DEBUG-- 读双字D822值:53164
+2026-04-18 11:46:07 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:47:41 --INFO -- 查找模板计时:19.2965
+2026-04-18 11:47:45 --INFO -- 查找模板计时:12.805
+2026-04-18 11:48:01 --DEBUG-- 读双字D820值:67464
+2026-04-18 11:48:01 --DEBUG-- 读双字D822值:53164
+2026-04-18 11:48:01 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:48:43 --INFO -- 查找模板计时:18.3851
+2026-04-18 11:48:46 --INFO -- 查找模板计时:11.6306
+2026-04-18 11:49:18 --DEBUG-- 读双字D820值:69864
+2026-04-18 11:49:18 --DEBUG-- 读双字D822值:53164
+2026-04-18 11:49:18 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:50:38 --INFO -- 查找模板计时:19.5524
+2026-04-18 11:50:40 --INFO -- 查找模板计时:12.8343
+2026-04-18 11:52:30 --INFO -- 查找模板计时:21.1844
+2026-04-18 11:52:32 --INFO -- 查找模板计时:14.0961
+2026-04-18 11:52:52 --DEBUG-- 读双字D820值:69864
+2026-04-18 11:52:52 --DEBUG-- 读双字D822值:59164
+2026-04-18 11:52:52 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:53:31 --INFO -- 查找模板计时:20.1641
+2026-04-18 11:53:34 --INFO -- 查找模板计时:12.7616
+2026-04-18 11:53:59 --DEBUG-- 读双字D820值:67464
+2026-04-18 11:53:59 --DEBUG-- 读双字D822值:59164
+2026-04-18 11:53:59 --DEBUG-- 读双字D824值:101244
+2026-04-18 11:54:20 --INFO -- 查找模板计时:21.7637
+2026-04-18 11:54:22 --INFO -- 查找模板计时:11.3821
+2026-04-18 13:35:34 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:35:51 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:36:36 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:36:41 --INFO -- 行误差：0.012825428656071836,列误差：0.012346448177737557.
+2026-04-18 13:44:17 --DEBUG-- 读双字D820值:77370
+2026-04-18 13:44:17 --DEBUG-- 读双字D822值:51822
+2026-04-18 13:44:17 --DEBUG-- 读双字D824值:104136
+2026-04-18 13:44:48 --INFO -- 行误差：0.012825428656071836,列误差：0.012346448177737557.
+2026-04-18 13:44:55 --INFO -- 行误差：0.012825428656071836,列误差：0.012346448177737557.
+2026-04-18 13:45:03 --INFO -- 行误差：0.012825428656071836,列误差：0.012346448177737557.
+2026-04-18 13:47:55 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:47:56 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:48:51 --INFO -- 行误差：0.012825428656071836,列误差：0.012346448177737557.
+2026-04-18 13:48:53 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:48:56 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:48:57 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:48:57 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:49:18 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:49:21 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:49:21 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:49:45 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[1587.7635704140894,782.3056719106651]
+2026-04-18 13:50:39 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:57:13 --INFO -- 图像采集Stop continuous operation
+2026-04-18 13:57:55 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:58:06 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 13:58:08 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[966.1599692211491,518.2521477399592]
+2026-04-18 13:58:11 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[966.1599692211491,518.2521477399592]
+2026-04-18 13:58:34 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[966.1599692211491,518.2521477399592]
+2026-04-18 13:58:45 --INFO -- 查找模板计时:16.1039
+2026-04-18 14:00:06 --INFO -- 查找模板计时:19.7011
+2026-04-18 14:00:07 --DEBUG-- 读双字D820值:67464
+2026-04-18 14:00:07 --DEBUG-- 读双字D822值:56164
+2026-04-18 14:00:07 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:01:14 --INFO -- 行误差：0.03214773995910036,列误差：3.772597418421128.
+2026-04-18 14:01:54 --INFO -- 查找模板计时:19.1587
+2026-04-18 14:02:02 --INFO -- 查找模板计时:12.0355
+2026-04-18 14:02:26 --INFO -- 查找模板计时:21.427
+2026-04-18 14:02:28 --DEBUG-- 读双字D820值:69864
+2026-04-18 14:02:28 --DEBUG-- 读双字D822值:56164
+2026-04-18 14:02:28 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:04:40 --INFO -- 查找模板计时:19.4935
+2026-04-18 14:04:42 --INFO -- 查找模板计时:13.3047
+2026-04-18 14:05:27 --DEBUG-- 读双字D820值:69864
+2026-04-18 14:05:27 --DEBUG-- 读双字D822值:59164
+2026-04-18 14:05:27 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:06:28 --INFO -- 查找模板计时:18.9186
+2026-04-18 14:06:30 --INFO -- 查找模板计时:16.0264
+2026-04-18 14:06:46 --INFO -- 查找模板计时:20.3128
+2026-04-18 14:06:51 --INFO -- 查找模板计时:11.8007
+2026-04-18 14:07:33 --INFO -- 查找模板计时:18.258
+2026-04-18 14:07:36 --INFO -- 查找模板计时:16.2558
+2026-04-18 14:07:54 --DEBUG-- 读双字D820值:65064
+2026-04-18 14:07:54 --DEBUG-- 读双字D822值:59164
+2026-04-18 14:07:54 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:09:02 --INFO -- 查找模板计时:14.3228
+2026-04-18 14:10:07 --DEBUG-- 读双字D820值:65064
+2026-04-18 14:10:07 --DEBUG-- 读双字D822值:56164
+2026-04-18 14:10:07 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:10:42 --INFO -- 查找模板计时:19.7547
+2026-04-18 14:10:45 --INFO -- 查找模板计时:13.5011
+2026-04-18 14:11:11 --DEBUG-- 读双字D820值:65064
+2026-04-18 14:11:11 --DEBUG-- 读双字D822值:53164
+2026-04-18 14:11:11 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:12:07 --INFO -- 查找模板计时:20.3155
+2026-04-18 14:12:10 --INFO -- 查找模板计时:10.9132
+2026-04-18 14:12:30 --DEBUG-- 读双字D820值:67464
+2026-04-18 14:12:30 --DEBUG-- 读双字D822值:53164
+2026-04-18 14:12:30 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:12:56 --INFO -- 查找模板计时:20.9175
+2026-04-18 14:12:58 --INFO -- 查找模板计时:14.7803
+2026-04-18 14:14:25 --INFO -- 查找模板计时:14.261
+2026-04-18 14:15:03 --INFO -- 行误差：0.046603574219602706,列误差：0.04481442306700956.
+2026-04-18 14:16:34 --INFO -- 行误差：0.046603574219602706,列误差：0.04481442306700956.
+2026-04-18 14:16:36 --INFO -- 转机械坐标:像素坐标[761.377,1805.22],拍照机械坐标[813.3,591.64],转换定位机械坐标[967.0201833365996,518.2988168117687]
+2026-04-18 14:17:25 --INFO -- 转机械坐标:像素坐标[2309.607,241.429],拍照机械坐标[873.3,531.64],转换定位机械坐标[967.1019672534471,518.2556457824707]
+2026-04-18 14:17:43 --INFO -- 转机械坐标:像素坐标[2309.607,241.429],拍照机械坐标[873.3,531.64],转换定位机械坐标[967.1019672534471,518.2556457824707]
+2026-04-18 14:17:45 --INFO -- 转机械坐标:像素坐标[2309.607,241.429],拍照机械坐标[873.3,531.64],转换定位机械坐标[967.1019672534471,518.2556457824707]
+2026-04-18 14:18:48 --INFO -- 转机械坐标:像素坐标[2309.607,241.429],拍照机械坐标[873.3,531.64],转换定位机械坐标[967.1019672534471,518.2556457824707]
+2026-04-18 14:20:45 --INFO -- 图像采集Stop continuous operation
+2026-04-18 14:20:47 --INFO -- 查找模板计时:20.4893
+2026-04-18 14:20:51 --INFO -- 查找模板计时:11.5567
+2026-04-18 14:21:11 --DEBUG-- 读双字D820值:54983
+2026-04-18 14:21:11 --DEBUG-- 读双字D822值:59520
+2026-04-18 14:21:11 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:22:05 --INFO -- 转机械坐标:像素坐标[537.728,332.752],拍照机械坐标[687.2875,595.2],转换定位机械坐标[849.3633746718833,578.5680450137205]
+2026-04-18 14:25:25 --INFO -- 转机械坐标:像素坐标[537.728,332.752],拍照机械坐标[687.2875,595.2],转换定位机械坐标[849.3633746718833,578.5680450137205]
+2026-04-18 14:25:49 --INFO -- 行误差：0.046603574219602706,列误差：0.04481442306700956.
+2026-04-18 14:39:02 --INFO -- 图像采集Stop continuous operation
+2026-04-18 14:41:45 --INFO -- 图像采集Stop continuous operation
+2026-04-18 14:42:05 --INFO -- 查找模板计时:16.1649
+2026-04-18 14:42:12 --INFO -- 查找模板计时:18.811
+2026-04-18 14:42:16 --INFO -- 查找模板计时:12.3942
+2026-04-18 14:43:31 --INFO -- 查找模板计时:19.4137
+2026-04-18 14:43:57 --INFO -- 查找模板计时:12.5657
+2026-04-18 14:44:00 --INFO -- 查找模板计时:20.2026
+2026-04-18 14:44:04 --INFO -- 查找模板计时:11.2819
+2026-04-18 14:44:26 --DEBUG-- 读双字D820值:58049
+2026-04-18 14:44:26 --DEBUG-- 读双字D822值:62202
+2026-04-18 14:44:26 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:45:26 --DEBUG-- 读双字D820值:58049
+2026-04-18 14:45:26 --DEBUG-- 读双字D822值:62202
+2026-04-18 14:45:26 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:46:45 --INFO -- 查找模板计时:22.547
+2026-04-18 14:46:49 --INFO -- 查找模板计时:14.2387
+2026-04-18 14:47:15 --DEBUG-- 读双字D820值:59648
+2026-04-18 14:47:15 --DEBUG-- 读双字D822值:62202
+2026-04-18 14:47:15 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:48:24 --INFO -- 查找模板计时:21.0284
+2026-04-18 14:48:28 --INFO -- 查找模板计时:12.0265
+2026-04-18 14:52:44 --INFO -- 查找模板计时:21.7396
+2026-04-18 14:52:46 --INFO -- 查找模板计时:11.8267
+2026-04-18 14:56:05 --INFO -- 查找模板计时:20.7438
+2026-04-18 14:56:07 --INFO -- 查找模板计时:9.9969
+2026-04-18 14:56:59 --INFO -- 查找模板计时:23.7631
+2026-04-18 14:57:02 --INFO -- 查找模板计时:10.7911
+2026-04-18 14:57:15 --DEBUG-- 读双字D820值:56448
+2026-04-18 14:57:15 --DEBUG-- 读双字D822值:64202
+2026-04-18 14:57:15 --DEBUG-- 读双字D824值:101244
+2026-04-18 14:57:53 --INFO -- 查找模板计时:21.0842
+2026-04-18 14:57:55 --INFO -- 查找模板计时:12.3626
+2026-04-18 14:58:49 --INFO -- 查找模板计时:17.1528
+2026-04-18 14:58:52 --INFO -- 查找模板计时:23.1389
+2026-04-18 14:58:55 --INFO -- 查找模板计时:18.018
+2026-04-18 14:59:32 --INFO -- 查找模板计时:26.404
+2026-04-18 14:59:36 --INFO -- 查找模板计时:13.6583
+2026-04-18 15:00:43 --INFO -- 查找模板计时:19.9524
+2026-04-18 15:00:46 --INFO -- 查找模板计时:12.8491
+2026-04-18 15:01:17 --INFO -- 查找模板计时:25.3222
+2026-04-18 15:01:19 --INFO -- 查找模板计时:15.0271
+2026-04-18 15:03:07 --DEBUG-- 读双字D820值:67978
+2026-04-18 15:03:07 --DEBUG-- 读双字D822值:58222
+2026-04-18 15:03:07 --DEBUG-- 读双字D824值:104764
+2026-04-18 15:03:54 --INFO -- 行误差：0.022064309213988054,列误差：0.037949264296685215.
+2026-04-18 15:05:02 --INFO -- 行误差：0.022064309213988054,列误差：0.037949264296685215.
+2026-04-18 15:05:16 --INFO -- 行误差：0.022064309213988054,列误差：0.037949264296685215.
+2026-04-18 15:05:45 --INFO -- 转机械坐标:像素坐标[2050.948,501.475],拍照机械坐标[745.6,602.02],转换定位机械坐标[849.7161491246578,582.2356278507343]
+2026-04-18 15:05:46 --INFO -- 转机械坐标:像素坐标[2050.948,501.475],拍照机械坐标[745.6,602.02],转换定位机械坐标[849.7161491246578,582.2356278507343]
+2026-04-18 15:05:47 --INFO -- 转机械坐标:像素坐标[2050.948,501.475],拍照机械坐标[745.6,602.02],转换定位机械坐标[849.7161491246578,582.2356278507343]
+2026-04-18 15:08:48 --WARN -- PLC断开终止监控！
 
  ----------------------application shutdown--------------------------

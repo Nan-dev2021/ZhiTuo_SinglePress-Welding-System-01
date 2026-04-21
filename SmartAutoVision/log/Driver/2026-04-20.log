@@ -1,0 +1,139 @@
+
+----------------------application startup--------------------------
+2026-04-20 08:19:02 --INFO -- [箱体间标定]首坐标表[1:343.9818587589652,148.5610430797039;2:358.4364365173036,284.60438802229066;3:172.00316489196837,283.2837888142253],次坐标列表[1:344.43625218593456,142.39541819965478;2:358.46319864165315,278.5548463406065;3:173.47750145099945,276.5828340814038].
+2026-04-20 08:19:02 --INFO -- [箱体间标定]标定信息：[平移X:3.4642896103195313;平移Y:-7.438015767625148;X当量:0.9922580030737539;Y当量:1.000485088736924;旋转角度:0.20156124044189946;倾斜角度:-0.06869317637917556;RMS:5.916450616797798E-14]误差：5.684341886080802E-14,列误差：5.684341886080802E-14.
+2026-04-20 13:30:32 --WARN -- 链接[全局.PLC当量]未在列表中！
+2026-04-20 15:37:26 --WARN -- 输入图片无效!
+2026-04-20 15:53:29 --ERROR-- 写入CSV[写入CSV] running failed:;Exception message:Line[45],Message[The process cannot access the file 'D:\01智拓\合肥和鼎\焊接双压机\SmartAutoVision\Data\标定数据20260420.csv' because it is being used by another process.],Location[   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at System.CsvHelper.WriteLineCsv(Dictionary`2 dict, String path) in F:\项目\Libraries\Class\UtilBase\文档操作类\CsvHelper.cs:line 70
+   at Plugin.WriteCsv.ToolWriteCsv.Run()]
+2026-04-20 15:58:51 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:00:40 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:02 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:03 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:03 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:04 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:04 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:04 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:05 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:05 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:06 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:14 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:15 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:15 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:27 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:28 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:28 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:28 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:29 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:02:29 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:03:23 --WARN -- [计算赋值]Assignment failed，[相机标定.机械坐标.X] not exist！
+2026-04-20 16:03:33 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:06 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:17 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:17 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:17 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:25 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:04:26 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:10 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:12 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:12 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:12 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:22 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:23 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:23 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:23 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:05:24 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:06:09 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:06:24 --WARN -- [计算赋值]Assignment failed，[相机标定.机械坐标.X] not exist！
+2026-04-20 16:06:24 --WARN -- [计算赋值]Assignment failed，[相机标定.机械坐标.Y] not exist！
+2026-04-20 16:06:24 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:06:52 --WARN -- [计算赋值]Assignment failed，[相机标定.图像X] not exist！
+2026-04-20 16:06:54 --WARN -- 链接[模板匹配.定位坐标.X()]获取对象为空请检查!
+2026-04-20 16:07:38 --WARN -- 链接[模板匹配.定位坐标.X()]获取对象为空请检查!
+2026-04-20 16:07:49 --WARN -- 链接[模板匹配.定位坐标.X()]获取对象为空请检查!
+2026-04-20 16:07:56 --WARN -- 链接[模板匹配.定位坐标.X()]获取对象为空请检查!
+2026-04-20 16:08:42 --WARN -- 链接[模板匹配.定位坐标.XValue]获取对象为空请检查!
+2026-04-20 16:09:13 --WARN -- 链接[模板匹配.定位坐标.XValue]获取对象为空请检查!
+2026-04-20 16:28:52 --ERROR-- 计算赋值[计算赋值] running failed:;Exception message:Line[45],Message[Parameter was not defined (Parameter 'X')],Location[   at NCalc.Domain.EvaluationVisitor.Visit(Identifier parameter)
+   at NCalc.Domain.Identifier.Accept(LogicalExpressionVisitor visitor)
+   at NCalc.Expression.Evaluate()
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-04-20 16:28:57 --ERROR-- 计算赋值[计算赋值] running failed:;Exception message:Line[45],Message[Parameter was not defined (Parameter 'X')],Location[   at NCalc.Domain.EvaluationVisitor.Visit(Identifier parameter)
+   at NCalc.Domain.Identifier.Accept(LogicalExpressionVisitor visitor)
+   at NCalc.Expression.Evaluate()
+   at Plugin.Assignment.ToolAssignment.Assignment(AssignmentInfo s)
+   at Plugin.Assignment.ToolAssignment.Run()]
+2026-04-20 16:38:42 --WARN -- [计算赋值]Assignment failed，[自动相机标定.机械Z坐标] not exist！
+2026-04-20 16:38:49 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:38:49 --DEBUG-- 读双字D820值:0
+2026-04-20 16:38:55 --WARN -- [计算赋值]Assignment failed，[自动相机标定.机械Z坐标] not exist！
+2026-04-20 16:39:00 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:39:00 --DEBUG-- 读双字D822值:0
+2026-04-20 16:39:11 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:39:11 --DEBUG-- 读双字D824值:0
+2026-04-20 16:40:12 --WARN -- [计算赋值]Assignment failed，[自动相机标定.机械Z坐标] not exist！
+2026-04-20 16:40:14 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:40:14 --DEBUG-- 读双字D820值:0
+2026-04-20 16:40:25 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:40:25 --DEBUG-- 读双字D822值:0
+2026-04-20 16:40:36 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 16:40:36 --DEBUG-- 读双字D824值:0
+2026-04-20 18:29:30 --WARN -- 链接[九点标定.X方向步长]未在列表中！
+2026-04-20 18:29:30 --WARN -- 链接[九点标定.Y方向步长]未在列表中！
+2026-04-20 18:29:30 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-20 18:29:30 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-20 18:33:16 --ERROR-- 生成采集路径[C#脚本] running failed:;Exception message:Line[45],Message[The given key '采集起点X（脉冲）' was not present in the dictionary.],Location[   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   at Plugin.ScriptCSharp.ScriptWriteAutoCollectCalibPoint.Execute(ConcurrentDictionary`2 parameters)
+   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-04-20 18:39:01 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-20 18:39:01 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-20 18:39:11 --ERROR-- 生成采集路径[C#脚本] running failed:;Exception message:Line[45],Message[Unable to cast object of type 'System.Single' to type 'System.Double'.],Location[   at Plugin.ScriptCSharp.ScriptWriteAutoCollectCalibPoint.Execute(ConcurrentDictionary`2 parameters)
+   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-04-20 18:39:30 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 18:39:30 --DEBUG-- 读双字D820值:0
+2026-04-20 18:39:41 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 18:39:41 --DEBUG-- 读双字D822值:0
+2026-04-20 18:39:52 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 18:39:52 --DEBUG-- 读双字D824值:0
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-20 19:12:35 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-20 19:12:35 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-20 19:12:35 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-20 19:12:35 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-20 19:12:35 --INFO -- 打开[扫码器]成功.
+2026-04-20 19:12:46 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-20 19:13:23 --INFO -- 打开[扫码器]成功.
+2026-04-20 19:13:33 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+
+ ----------------------application shutdown--------------------------

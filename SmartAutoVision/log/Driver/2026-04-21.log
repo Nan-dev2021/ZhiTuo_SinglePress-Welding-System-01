@@ -1,0 +1,185 @@
+
+----------------------application startup--------------------------
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-21 09:53:14 --WARN -- 模板图像路径不存在!
+2026-04-21 09:53:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 09:53:14 --WARN -- 模板图像路径不存在!
+2026-04-21 09:53:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 09:53:14 --WARN -- 模板图像路径不存在!
+2026-04-21 09:53:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-21 10:11:15 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:15 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:15 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:15 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:15 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:15 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:21 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:21 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:21 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:21 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:21 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 10:11:21 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 10:11:22 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:11:22 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:11:22 --WARN -- 模板图像路径不存在!
+2026-04-21 10:11:22 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 10:11:22 --INFO -- 打开[扫码器]成功.
+2026-04-21 10:11:32 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 10:11:55 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 10:11:55 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 10:11:55 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:11:55 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:11:55 --INFO -- 打开[扫码器]成功.
+2026-04-21 10:12:06 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 10:15:07 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 10:15:07 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 10:15:07 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:15:07 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:15:08 --INFO -- 打开[扫码器]成功.
+2026-04-21 10:15:18 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-21 10:31:02 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 10:31:02 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 10:31:02 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:31:02 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:31:02 --INFO -- 打开[扫码器]成功.
+2026-04-21 10:31:13 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 10:35:09 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 10:35:09 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 10:36:22 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:36:22 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:36:35 --WARN -- 链接[全局.PLC_X当量]未在列表中！
+2026-04-21 10:36:35 --WARN -- 链接[全局.PLC_Y当量]未在列表中！
+2026-04-21 10:37:16 --ERROR-- 生成采集路径[C#脚本] running failed:;Exception message:Line[45],Message[Unable to cast object of type 'System.Single' to type 'System.Double'.],Location[   at Plugin.ScriptCSharp.ScriptWriteAutoCollectCalibPoint.Execute(ConcurrentDictionary`2 parameters)
+   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-04-21 10:37:44 --INFO -- 打开[扫码器]成功.
+2026-04-21 10:37:55 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 10:52:26 --INFO -- 扫码事件触发:触发类型[接收],消息[1].
+2026-04-21 11:31:26 --INFO -- 打开[扫码器]成功.
+2026-04-21 11:31:37 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 11:43:44 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 11:43:44 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 11:43:44 --INFO -- 打开[扫码器]成功.
+2026-04-21 11:43:55 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 11:45:40 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 11:45:40 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 11:46:05 --ERROR-- 坐标解析[C#脚本] running failed:;Exception message:Line[45],Message[Unable to cast object of type 'System.Double' to type 'System.Int32'.],Location[   at Plugin.ScriptCSharp.ScriptToXYList.Execute(ConcurrentDictionary`2 parameters)
+   at Plugin.ScriptCSharp.ToolScriptCSharp.Run()]
+2026-04-21 11:46:11 --INFO -- 打开[扫码器]成功.
+2026-04-21 11:46:22 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 13:24:14 --WARN -- 模板图像路径不存在!
+2026-04-21 13:24:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 13:24:14 --WARN -- 模板图像路径不存在!
+2026-04-21 13:24:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+2026-04-21 13:24:14 --WARN -- 模板图像路径不存在!
+2026-04-21 13:24:14 --ERROR-- Plugin.Matching.ToolMatching:HalconDotNet.HOperatorException: HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+   at HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   at HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   at HalconDotNet.HImage.ReduceDomain(HRegion region)
+   at Plugin.Matching.ToolMatching.LearnModle()
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-21 13:38:40 --WARN -- 链接[全局.全局.PLC_X当量值]未在列表中！
+2026-04-21 13:38:40 --WARN -- 链接[全局.全局.PLC_Y当量值]未在列表中！
+2026-04-21 13:38:40 --INFO -- 打开[扫码器]成功.
+2026-04-21 13:38:50 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+2026-04-21 13:39:25 --INFO -- 打开[扫码器]成功.
+2026-04-21 13:39:35 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-21 14:54:12 --INFO -- 打开[扫码器]成功.
+2026-04-21 14:54:23 --ERROR-- PLC打开失败,提示:System.Exception: TcpClientPort Open failed. Details:连接失败，请检查该IP地址是否能Ping通
+   at Device.PortTcpClient.Open() in F:\项目\Libraries\Class\Device\000 Base\Connecor\PortTcpServer.cs:line 31
+   at Device.DevicePort.Open(String& msg) in F:\项目\Libraries\Class\Device\000 Base\Simulator\DeviceSimulateActionManager.cs:line 21
+
+ ----------------------application shutdown--------------------------

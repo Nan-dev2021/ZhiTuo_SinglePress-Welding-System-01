@@ -1,10 +1,23 @@
 
 ----------------------application startup--------------------------
-2026-04-18 15:28:05 --INFO -- 停止项目成功！
-2026-04-18 15:28:08 --INFO -- 初始化成功!
-2026-04-18 15:44:48 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
-2026-04-18 16:33:52 --INFO -- 保存项目成功！
-2026-04-18 16:33:53 --INFO -- 保存项目成功！
-2026-04-18 16:33:57 --INFO -- 保存项目成功！
+2026-04-18 11:05:56 --INFO -- 停止项目成功！
+2026-04-18 11:05:59 --INFO -- 初始化成功!
+2026-04-18 11:08:18 --INFO -- 保存项目成功！
+2026-04-18 11:08:34 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-18 11:09:29 --INFO -- 保存项目成功！
+
+ ----------------------application shutdown--------------------------
+
+----------------------application startup--------------------------
+2026-04-18 11:09:35 --INFO -- 停止项目成功！
+2026-04-18 11:09:38 --INFO -- 初始化成功!
+2026-04-18 11:12:00 --FATAL-- Line[113],Message[A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (调用线程无法访问此对象，因为另一个线程拥有该对象。)],Location[]
+2026-04-18 11:39:55 --INFO -- 保存项目成功！
+2026-04-18 11:40:24 --INFO -- 保存项目成功！
+2026-04-18 11:40:24 --INFO -- 保存项目成功！
+2026-04-18 11:40:28 --INFO -- 保存项目成功！
+2026-04-18 11:45:36 --DEBUG-- 清理内存[1504.1MB]耗时134.5209ms,0
+2026-04-18 14:46:46 --DEBUG-- 清理内存[1509.9MB]耗时134.5409ms,0
+2026-04-18 15:08:31 --INFO -- 保存项目成功！
 
  ----------------------application shutdown--------------------------
